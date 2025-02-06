@@ -1,7 +1,6 @@
 .html-container {
   display: flex;
-  //width: 100px;
-
+  margin: 0 auto;
   max-width: 1440px;
   flex-direction: column;
 }
@@ -20,4 +19,55 @@
   background-color: var(--color-html) !important;
   border-color: var(--color-html) !important;
   color: var(--main-color-text);
+}
+
+.carousel-item-height {
+  //background-color: #8e7369;
+  height: 50vh;
+}
+
+label {
+  //width: 150px;
+  //height: 150px;
+  cursor: pointer;
+}
+
+.title-question {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flashcard {
+  margin: 30px 0 30px 0;
+  height: 240px;
+  width: 500px;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d !important;
+  -webkit-transition: all 600ms !important;
+  transition: all 600ms;
+}
+
+.flashcard div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  //border-radius: 15% !important;
+  border: 2px solid grey;
+}
+
+.flashcard .back {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  background-color: rgba(1, 1, 1, 0.1);
+}
+
+.flashcard.flipped {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }

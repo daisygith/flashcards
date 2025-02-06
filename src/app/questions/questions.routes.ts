@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+import { questionsResolver } from './resolvers/questions.resolver';
 
 export const questionsRoutes: Routes = [
   {
@@ -13,6 +14,8 @@ export const questionsRoutes: Routes = [
     children: [
       {
         path: 'html',
+        resolve: { questions: questionsResolver },
+        data: { type: 'html' },
         loadComponent: () =>
           import('./components/html/html.component').then(
             (c) => c.HtmlComponent,
