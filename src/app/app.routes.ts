@@ -16,6 +16,11 @@ export const routes: Routes = [
         loadChildren: () =>
           import('./main-page/main-page.routes').then((m) => m.mainPageRoutes),
       },
+      {
+        path: 'questions',
+        loadChildren: () =>
+          import('./questions/questions.routes').then((m) => m.questionsRoutes),
+      },
     ],
   },
 ];

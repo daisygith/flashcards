@@ -1,0 +1,23 @@
+.html-container {
+  display: flex;
+  //width: 100px;
+
+  max-width: 1440px;
+  flex-direction: column;
+}
+
+.elements {
+  text-align: center;
+}
+
+.html-more {
+  background-color: var(--main-color-text) !important;
+  border-color: var(--main-color-text) !important;
+  color: var(--main-color-background);
+}
+
+.html-more:hover {
+  background-color: var(--color-html) !important;
+  border-color: var(--color-html) !important;
+  color: var(--main-color-text);
+}

@@ -1,53 +1,83 @@
-.main-page {
-  display: flex;
-  //width: 100px;
-  margin: 0 auto;
-  max-width: 1440px;
-  flex-direction: column;
-}
+app-main-page {
+  overflow: auto;
+  .main-page {
+    display: flex;
+    //width: 100px;
+    margin: 0 auto;
+    max-width: 1440px;
+    flex-direction: column;
+  }
 
-.section {
-  padding: 180px 0 0 0;
-  //padding: 200px 0px 100px 0px;
-}
+  .container.top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    margin-bottom: 90px;
+  }
 
-.container.top {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: space-between;
-  margin-bottom: 60px;
-}
+  .main {
+    width: -webkit-fill-available;
+  }
 
-.main {
-  width: -webkit-fill-available;
-}
+  .container-left {
+    font-size: 66px;
+  }
 
-.container-left {
-  font-size: 80px;
-}
+  .container-right {
+    padding: 100px 0 0 0;
+    text-align: right;
+  }
 
-.container-right {
-  padding: 100px 0 0 0;
-  text-align: right;
-}
+  .container.bottom {
+    //height: 50px;
+    //background-color: var(--second-color-backround);
+  }
 
-.container.bottom {
-  //height: 50px;
-  //background-color: var(--second-color-backround);
-}
+  .box-top {
+  }
 
-.box-top {
-}
+  .box-bottom {
+    padding: 40px;
+    min-height: 30px;
+    background-color: var(--second-color-backround);
+    border-radius: 22px;
+    text-align: center;
+  }
 
-.box-bottom {
-  padding: 40px;
-  min-height: 30px;
-  background-color: var(--second-color-backround);
-  border-radius: 22px;
-  text-align: center;
-}
+  .line2 {
+    text-align: right;
+    margin-right: 40px;
+  }
 
-.line2 {
-  text-align: right;
-  margin-right: 40px;
+  .question-title {
+    margin: 0 0 30px 0;
+    border-bottom: thick double #000000;
+  }
+
+  .question-title p {
+    margin: 0 0 40px 0;
+  }
+
+  .question-cart {
+    margin: 20px 0 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 12px;
+  }
+
+  .card-resize {
+    cursor: pointer;
+    background-color: transparent !important;
+    border: 2px solid var(--main-color-text);
+    padding: 40px 30px 30px 30px;
+  }
+
+  .card-resize:hover {
+    background-color: var(--second-color-backround) !important;
+  }
+
+  img {
+    width: 220px;
+    height: 228px;
+  }
 }

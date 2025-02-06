@@ -1,0 +1,19 @@
+<div class="html-container">
+  @if (!isStarted) {
+    <section class="elements">
+      <div class="html-title">
+        <p class="h3">Study HTML questions.</p>
+      </div>
+      <div class="html-image">
+        <img src="assets/images/html.png" alt="html" />
+      </div>
+      <div class="html-button">
+        <button type="button" class="btn btn-info html-more" (click)="start()">
+          Start study
+        </button>
+      </div>
+    </section>
+  } @else {
+    <section class="elements">started</section>
+  }
+</div>

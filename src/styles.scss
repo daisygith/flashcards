@@ -8,7 +8,11 @@ body {
 body {
   margin: 0;
   //font-family: Roboto, "Helvetica Neue", sans-serif;
-  font-family: "Inter", sans-serif;
+  //font-family: "Inter", sans-serif;
+  font-family: "JetBrains Mono", serif;
+  font-optical-sizing: auto;
+  //font-weight: <weight>;
+  font-style: normal;
   background-color: var(--main-color-background);
 }
 
@@ -16,4 +20,11 @@ body {
   //color
   --main-color-background: #f2f2f2;
   --second-color-backround: #dddce3;
+  --main-color-text: #000000;
+  --color-html: #f16529;
+}
+
+section {
+  padding: 120px 0 0 0;
+  //padding: 200px 0px 100px 0px;
 }
