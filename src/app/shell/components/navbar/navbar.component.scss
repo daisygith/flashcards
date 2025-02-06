@@ -1,0 +1,23 @@
+//.navbar-top {
+//
+//}
+
+.navbar-all {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent !important;
+}
+
+.nav-right-links {
+  display: flex;
+  gap: 16px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -9,4 +9,11 @@ body {
   margin: 0;
   //font-family: Roboto, "Helvetica Neue", sans-serif;
   font-family: "Inter", sans-serif;
+  background-color: var(--main-color-background);
+}
+
+:root {
+  //color
+  --main-color-background: #f2f2f2;
+  --second-color-backround: #dddce3;
 }
