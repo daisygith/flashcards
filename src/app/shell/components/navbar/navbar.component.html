@@ -13,17 +13,13 @@
         >
           {{ translate.currentLang }}
         </button>
-        @for (lang of translate.getLangs(); track 0) {
-          <div
-            aria-labelledby="dropdownBasic1"
-            ngbDropdownMenu
-            (click)="translate.use(lang)"
-          >
-            <button ngbDropdownItem>
+        <div aria-labelledby="dropdownBasic1" ngbDropdownMenu>
+          @for (lang of languages; let idx = $index; track idx) {
+            <button ngbDropdownItem (click)="translate.use(lang)">
               {{ lang }}
             </button>
-          </div>
-        }
+          }
+        </div>
       </div>
 
       <a class="nav-link links-width" href="/questions">{{

@@ -1,8 +1,8 @@
 [
   {
     "id": "1",
-    "question": "1What is the purpose of the < !doctype html > declaration?",
-    "answer": "1HTML stands for HyperText Markup Language Markup means it is used to structure the content of the webpage. HTML contains the set of elements or tags which are used to define the structure and semantics of a webpage."
+    "question": "Co to jest HTML?",
+    "answer": "HTML oznacza HyperText Markup Language\n - Znaczniki - używane do strukturyzowania zawartości strony internetowej. \n - HTML zawiera zbiór elementów lub tagów, które służą do definowania struktury i sematyki strony internetowej."
   },
   {
     "id": 2,

@@ -8,14 +8,12 @@ import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { inject } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { QuestionsService } from '../services/questions.service';
 
 export const questionsResolver: ResolveFn<Question[]> = (
   route: ActivatedRouteSnapshot,
   state: RouterStateSnapshot,
 ): Observable<Question[]> => {
-  const httpClient = inject(HttpClient);
-  const translateService = inject(TranslateService);
-  return httpClient.get<Question[]>(
-    `/assets/questions/${translateService.currentLang ?? 'en'}/${route.data['type']}.json`,
-  );
+  const questionsService = inject(QuestionsService);
+  return questionsService.getQuestions(route.data['type']);
 };

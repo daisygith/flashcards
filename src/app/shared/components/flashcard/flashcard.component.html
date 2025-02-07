@@ -1,0 +1,19 @@
+<label>
+  <div
+    class="flashcard"
+    data-bs-toggle="tooltip"
+    data-bs-placement="bottom"
+    title="{{ 'FLASH_CARD.HELP' | translate }}"
+    [class.flipped]="flipped"
+    (click)="toggle()"
+  >
+    <div class="front">
+      <span class="fs-4 title-question">{{ questions?.question }} </span>
+    </div>
+    <div class="back">
+      <span class="title-question">
+        {{ questions?.answer }}
+      </span>
+    </div>
+  </div>
+</label>

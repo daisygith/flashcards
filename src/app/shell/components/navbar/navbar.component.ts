@@ -22,4 +22,7 @@ import {
 })
 export class NavbarComponent {
   public translate: TranslateService = inject(TranslateService);
+  public get languages(): string[] {
+    return this.translate.getLangs();
+  }
 }

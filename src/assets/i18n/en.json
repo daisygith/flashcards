@@ -1,4 +1,7 @@
 {
+  "FLASH_CARD": {
+    "HELP": "Press and check the answer"
+  },
   "MAIN_PAGE": {
     "BUTTON": {
       "CHECK_MORE": "Check more"
