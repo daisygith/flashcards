@@ -25,8 +25,8 @@ body {
 }
 
 section {
-  padding: 120px 0 0 0;
-  //padding: 200px 0px 100px 0px;
+  margin: 100px 0 0 0;
+  height: 674px;
 }
 
 .box-bottom {
@@ -40,4 +40,37 @@ section {
 .line2 {
   text-align: right;
   margin-right: 40px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+//questions
+.question-title {
+  margin: 0 0 30px 0;
+  border-bottom: thick double #000000;
+}
+
+.question-title p,
+.test-title p {
+  margin: 0 0 40px 0;
+}
+
+.question-cart {
+  margin: 40px 0 40px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 12px;
+}
+
+.card-resize {
+  cursor: pointer;
+  background-color: transparent !important;
+  border: none !important;
+  padding: 40px 30px 30px 30px;
+}
+
+.card-resize:hover {
+  background-color: var(--second-color-backround) !important;
 }

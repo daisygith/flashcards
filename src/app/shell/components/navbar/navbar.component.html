@@ -4,39 +4,37 @@
       <a class="navbar-brand" href="#">CodeAnswer</a>
     </div>
     <div class="nav-right-links">
-      <div class="dropdown">
-        <a
-          data-mdb-dropdown-init
-          class="dropdown-toggle"
-          href="#"
-          id="Dropdown"
-          role="button"
-          data-mdb-toggle="dropdown"
-          aria-expanded="false"
+      <div ngbDropdown class="d-inline-block">
+        <button
+          type="button"
+          class="btn btn-outline-primary"
+          id="dropdownBasic1"
+          ngbDropdownToggle
         >
-          <i class="flag-united-kingdom flag m-0"></i>
-        </a>
-
-        <ul class="dropdown-menu" aria-labelledby="Dropdown">
-          <li>
-            <a class="dropdown-item" href="#"
-              ><i class="flag-united-kingdom flag"></i>English
-              <i class="fa fa-check text-success ms-2"></i
-            ></a>
-          </li>
-          <li><hr class="dropdown-divider" /></li>
-          <li>
-            <a class="dropdown-item" href="#"
-              ><i class="flag-poland flag"></i>Polski</a
-            >
-          </li>
-        </ul>
+          {{ translate.currentLang }}
+        </button>
+        @for (lang of translate.getLangs(); track 0) {
+          <div
+            aria-labelledby="dropdownBasic1"
+            ngbDropdownMenu
+            (click)="translate.use(lang)"
+          >
+            <button ngbDropdownItem>
+              {{ lang }}
+            </button>
+          </div>
+        }
       </div>
-      <a class="nav-link active" aria-current="page" href="/questions"
-        >Questions</a
-      >
-      <a class="nav-link" href="#">Test</a>
-      <a class="nav-link" href="#">About</a>
+
+      <a class="nav-link links-width" href="/questions">{{
+        "NAVBAR.QUESTIONS" | translate
+      }}</a>
+      <a class="nav-link links-width" href="#">{{
+        "NAVBAR.TESTS" | translate
+      }}</a>
+      <a class="nav-link links-width" href="#">{{
+        "NAVBAR.ABOUT" | translate
+      }}</a>
     </div>
   </nav>
 </div>

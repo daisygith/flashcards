@@ -1,7 +1,3 @@
-//.navbar-top {
-//
-//}
-
 .navbar-all {
   max-width: 1440px;
   margin: 0 auto;
@@ -20,4 +16,8 @@
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
+}
+
+.links-width {
+  width: 90px;
 }

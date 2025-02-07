@@ -1,3 +1,16 @@
 {
-  "title": "Flashcards"
+  "MAIN_PAGE": {
+    "BUTTON": {
+      "CHECK_MORE": "Zobacz więcej"
+    },
+    "FLASHCARDS_TITLE": "Sprawdź pytania...",
+    "SUBTITLE": "Ta strona internetowa została stworzona, aby pomóc Ci lepiej przygotować się do rozmowy kwalifikacyjnej, testu lub po prostu sprawdzić swoją wiedzę z...",
+    "TITLE": "/* Przygotuj się do rozmowy kwalifikacyjnej */",
+    "TESTS_TITLE": "Sprawdź swoją wiedzę"
+  },
+  "NAVBAR": {
+    "ABOUT": "O mnie",
+    "TESTS": "Testy",
+    "QUESTIONS": "Pytania"
+  }
 }

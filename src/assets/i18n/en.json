@@ -1,3 +1,16 @@
 {
-  "title": "Flashcards"
+  "MAIN_PAGE": {
+    "BUTTON": {
+      "CHECK_MORE": "Check more"
+    },
+    "FLASHCARDS_TITLE": "Check the questions...",
+    "SUBTITLE": "This website has been created to help you better prepare for a job interview, a test or simply to review your knowledge of...",
+    "TITLE": "/* Prepare for the interview */",
+    "TESTS_TITLE": "Test your knowledge"
+  },
+  "NAVBAR": {
+    "ABOUT": "About",
+    "TESTS": "Tests",
+    "QUESTIONS": "Questions"
+  }
 }

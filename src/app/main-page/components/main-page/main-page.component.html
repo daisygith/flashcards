@@ -1,10 +1,9 @@
 <div class="main-page">
   <section class="section main">
     <div class="container top">
-      <div class="container-left">/* Prepare for the interview */</div>
+      <div class="container-left">{{ "MAIN_PAGE.TITLE" | translate }}</div>
       <div class="container-right">
-        This website was created to assist you in better preparing for a job
-        interview.
+        {{ "MAIN_PAGE.SUBTITLE" | translate }}
       </div>
     </div>
     <div class="container bottom">
@@ -24,7 +23,9 @@
   <section class="section question">
     <div class="container">
       <div class="question-title">
-        <p class="fs-1 text-center">Przygotowane fiszki z pytań</p>
+        <p class="fs-1 text-center">
+          {{ "MAIN_PAGE.FLASHCARDS_TITLE" | translate }}
+        </p>
       </div>
       <div class="question-cart">
         <a routerLink="/questions/html">
@@ -35,6 +36,39 @@
           </div>
         </a>
       </div>
+      <div class="question-button">
+        <a routerLink="/questions">
+          <button type="button" class="btn btn-info questions-more">
+            {{ "MAIN_PAGE.BUTTON.CHECK_MORE" | translate }}
+          </button>
+        </a>
+      </div>
     </div>
   </section>
+  <section class="section test">
+    <div class="container">
+      <div class="test-title">
+        <p class="fs-1 text-center">
+          {{ "MAIN_PAGE.TESTS_TITLE" | translate }}
+        </p>
+      </div>
+      <div class="question-cart">
+        <a routerLink="/tests/html">
+          <div class="card card-test-resize">
+            <div class="card-body card-body-test h3">
+              <span>HTML</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="question-button">
+        <a routerLink="/tests">
+          <button type="button" class="btn btn-info questions-more">
+            {{ "MAIN_PAGE.BUTTON.CHECK_MORE" | translate }}
+          </button>
+        </a>
+      </div>
+    </div>
+  </section>
+  <footer></footer>
 </div>

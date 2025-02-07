@@ -20,7 +20,7 @@ app-main-page {
   }
 
   .container-left {
-    font-size: 66px;
+    font-size: 60px;
   }
 
   .container-right {
@@ -28,35 +28,49 @@ app-main-page {
     text-align: right;
   }
 
-  .question-title {
-    margin: 0 0 30px 0;
-    border-bottom: thick double #000000;
-  }
-
-  .question-title p {
-    margin: 0 0 40px 0;
-  }
-
-  .question-cart {
-    margin: 20px 0 20px 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 12px;
-  }
-
-  .card-resize {
-    cursor: pointer;
-    background-color: transparent !important;
-    border: 2px solid var(--main-color-text);
-    padding: 40px 30px 30px 30px;
-  }
-
-  .card-resize:hover {
-    background-color: var(--second-color-backround) !important;
-  }
-
   img {
     width: 220px;
     height: 228px;
+  }
+
+  .question-button {
+    text-align: center;
+  }
+
+  .questions-more {
+    width: 152px;
+    background-color: var(--main-color-text) !important;
+    border-color: var(--main-color-text) !important;
+    color: var(--second-color-backround) !important;
+  }
+
+  .questions-more:hover {
+    background-color: var(--second-color-backround) !important;
+    border-color: var(--main-color-text) !important;
+    color: var(--main-color-text) !important;
+  }
+
+  .test-text {
+    margin: 0 0 30px 0;
+  }
+
+  .card-body-test {
+    margin: 0;
+  }
+
+  .card-body-test > span {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+
+  .card-test-resize {
+    background-color: var(--main-color-text) !important;
+    color: var(--second-color-backround) !important;
+  }
+  .card-test-resize:hover {
+    background-color: var(--second-color-backround) !important;
+    color: var(--main-color-text) !important;
   }
 }
