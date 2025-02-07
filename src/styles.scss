@@ -28,3 +28,16 @@ section {
   padding: 120px 0 0 0;
   //padding: 200px 0px 100px 0px;
 }
+
+.box-bottom {
+  padding: 40px;
+  min-height: 30px;
+  background-color: var(--second-color-backround);
+  border-radius: 22px;
+  text-align: center;
+}
+
+.line2 {
+  text-align: right;
+  margin-right: 40px;
+}

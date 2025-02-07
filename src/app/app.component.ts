@@ -11,13 +11,13 @@ import { TranslateService } from '@ngx-translate/core';
 export class AppComponent {
   title = 'flashcards';
 
-  // constructor(public translate: TranslateService) {
-  //   translate.addLangs(['en', 'pl']);
-  //   translate.setDefaultLang('en');
-  //
-  //   const browserLang = translate.getBrowserLang();
-  //   if (browserLang != null) {
-  //     translate.use(browserLang.match(/pl|en/) ? browserLang : 'en');
-  //   }
-  // }
+  constructor(public translate: TranslateService) {
+    translate.addLangs(['en', 'pl']);
+    translate.setDefaultLang('en');
+
+    const browserLang = translate.getBrowserLang();
+    if (browserLang != null) {
+      translate.use(browserLang.match(/en|pl/) ? browserLang : 'en');
+    }
+  }
 }

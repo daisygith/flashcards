@@ -1,11 +1,16 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Question } from '../../types';
 import { JsonPipe } from '@angular/common';
+import {
+  NgbCarousel,
+  NgbCarouselConfig,
+  NgbSlide,
+} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-html',
   standalone: true,
-  imports: [JsonPipe],
+  imports: [JsonPipe, NgbCarousel, NgbSlide],
   templateUrl: './html.component.html',
   styleUrl: './html.component.scss',
 })
@@ -19,11 +24,20 @@ export class HtmlComponent implements OnInit {
   }
 
   flipped = false;
-  imgSrc =
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtkL8GlKZ775j3f0VVgS1rU8L2LoX5UEM6fKv_eGLzeza27WYH';
-
   toggle() {
     this.flipped = !this.flipped;
   }
-  ngOnInit() {}
+  ngOnInit() {
+    // console.log(this.questionById);
+  }
+
+  constructor(config: NgbCarouselConfig) {
+    // customize default values of carousels used by this component tree
+    config.interval = 10000;
+    config.wrap = false;
+    config.keyboard = false;
+    config.pauseOnHover = false;
+  }
+
+  // questionById = [].map((n) => this.questions![n]);
 }

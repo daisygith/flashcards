@@ -12,87 +12,125 @@
           Start study
         </button>
       </div>
-    </section>
-  } @else {
-    <section class="elements">
-      <div
-        id="carouselDark"
-        class="carousel carousel-dark slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active carousel-item-height">
-            <label>
-              <div
-                class="flashcard"
-                data-bs-toggle="tooltip"
-                data-bs-placement="bottom"
-                title="Press and check the answer"
-                [class.flipped]="flipped"
-                (click)="toggle()"
-              >
-                <div class="front">
-                  <span class="fs-4 title-question"
-                    >What is the purpose of the < !doctype html > declaration?
-                  </span>
-                </div>
-                <div class="back">
-                  <span class="title-question">
-                    HTML stands for HyperText Markup Language Markup means it is
-                    used to structure the content of the webpage. HTML contains
-                    the set of elements or tags which are used to define the
-                    structure and semantics of a webpage.
-                  </span>
-                </div>
-              </div>
-            </label>
-          </div>
-          <div class="carousel-item carousel-item-height">
-            <label>
-              <div
-                class="flashcard"
-                data-bs-toggle="tooltip"
-                data-bs-placement="bottom"
-                title="Press and check the answer"
-                [class.flipped]="flipped"
-                (click)="toggle()"
-              >
-                <div class="front">
-                  <span class="fs-4 title-question"
-                    >What is the purpose of the < !doctype html > declaration?
-                  </span>
-                </div>
-                <div class="back">
-                  <span class="title-question">
-                    HTML stands for HyperText Markup Language Markup means it is
-                    used to structure the content of the webpage. HTML contains
-                    the set of elements or tags which are used to define the
-                    structure and semantics of a webpage.
-                  </span>
-                </div>
-              </div>
-            </label>
+      <div class="container bottom">
+        <div class="box-bottom html-info">
+          <div class="line1">
+            <span class="material-symbols-outlined"> filter_1 </span>
+            <span>123</span>
+            <span>flashcards</span>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </section>
+  } @else {
+    <!--    <section class="elements">-->
+    <!--      <div-->
+    <!--        id="carouselDark"-->
+    <!--        class="carousel carousel-dark slide"-->
+    <!--        data-bs-ride="carousel"-->
+    <!--      >-->
+    <!--        <div class="carousel-inner">-->
+    <!--          <div class="carousel-item active carousel-item-height">-->
+    <!--            <label>-->
+    <!--              <div-->
+    <!--                class="flashcard"-->
+    <!--                data-bs-toggle="tooltip"-->
+    <!--                data-bs-placement="bottom"-->
+    <!--                title="Press and check the answer"-->
+    <!--                [class.flipped]="flipped"-->
+    <!--                (click)="toggle()"-->
+    <!--              >-->
+    <!--                <div class="front">-->
+    <!--                  <span class="fs-4 title-question"-->
+    <!--                    >What is the purpose of the < !doctype html > declaration?-->
+    <!--                  </span>-->
+    <!--                </div>-->
+    <!--                <div class="back">-->
+    <!--                  <span class="title-question">-->
+    <!--                    HTML stands for HyperText Markup Language Markup means it is-->
+    <!--                    used to structure the content of the webpage. HTML contains-->
+    <!--                    the set of elements or tags which are used to define the-->
+    <!--                    structure and semantics of a webpage.-->
+    <!--                  </span>-->
+    <!--                </div>-->
+    <!--              </div>-->
+    <!--            </label>-->
+    <!--          </div>-->
+    <!--          <div class="carousel-item carousel-item-height">-->
+    <!--            <label>-->
+    <!--              <div-->
+    <!--                class="flashcard"-->
+    <!--                data-bs-toggle="tooltip"-->
+    <!--                data-bs-placement="bottom"-->
+    <!--                title="Press and check the answer"-->
+    <!--                [class.flipped]="flipped"-->
+    <!--                (click)="toggle()"-->
+    <!--              >-->
+    <!--                <div class="front">-->
+    <!--                  <span class="fs-4 title-question"-->
+    <!--                    >What is the purpose of the < !doctype html > declaration?-->
+    <!--                  </span>-->
+    <!--                </div>-->
+    <!--                <div class="back">-->
+    <!--                  <span class="title-question">-->
+    <!--                    HTML stands for HyperText Markup Language Markup means it is-->
+    <!--                    used to structure the content of the webpage. HTML contains-->
+    <!--                    the set of elements or tags which are used to define the-->
+    <!--                    structure and semantics of a webpage.-->
+    <!--                  </span>-->
+    <!--                </div>-->
+    <!--              </div>-->
+    <!--            </label>-->
+    <!--          </div>-->
+    <!--        </div>-->
+    <!--        <button-->
+    <!--          class="carousel-control-prev"-->
+    <!--          type="button"-->
+    <!--          data-bs-target="#carouselExampleDark"-->
+    <!--          data-bs-slide="prev"-->
+    <!--        >-->
+    <!--          <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+    <!--          <span class="visually-hidden">Previous</span>-->
+    <!--        </button>-->
+    <!--        <button-->
+    <!--          class="carousel-control-next"-->
+    <!--          type="button"-->
+    <!--          data-bs-target="#carouselExampleDark"-->
+    <!--          data-bs-slide="next"-->
+    <!--        >-->
+    <!--          <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+    <!--          <span class="visually-hidden">Next</span>-->
+    <!--        </button>-->
+    <!--      </div>-->
+    <!--    </section>-->
+    @if (questions) {
+      <ngb-carousel>
+        <ng-template ngbSlide>
+          @for (element of questions; track element.id) {
+            <label>
+              <div
+                class="flashcard"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Press and check the answer"
+                [class.flipped]="flipped"
+                (click)="toggle()"
+              >
+                <div class="front">
+                  <span class="fs-4 title-question"
+                    >{{ element.question }}
+                  </span>
+                </div>
+                <div class="back">
+                  <span class="title-question">
+                    {{ element.answer }}
+                  </span>
+                </div>
+              </div>
+            </label>
+          }
+        </ng-template>
+      </ngb-carousel>
+    }
   }
 </div>
