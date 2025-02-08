@@ -1,6 +1,12 @@
+.navbar-top {
+  box-shadow: 1px -2px 5px var(--main-color-text);
+  height: 74px;
+}
+
 .navbar-all {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 18px 0 0 0;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -11,7 +17,7 @@
 
 .nav-right-links {
   display: flex;
-  gap: 16px;
+  //gap: 16px;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
@@ -20,4 +26,83 @@
 
 .links-width {
   width: 90px;
+}
+
+.header-link {
+  align-self: center;
+  justify-self: center;
+}
+
+//.menu > li {
+//  margin: 0px 25px;
+//  padding: 0px 0px;
+//  float: left;
+//  position: relative;
+//  display: -webkit-box;
+//  display: -webkit-flex;
+//  display: -ms-flexbox;
+//  display: flex;
+//  align-items: center;
+//  height: 100%;
+//}
+//
+//.menu > li > a {
+//  display: inline-block;
+//  padding: 32px 0px;
+//  line-height: 35px;
+//  text-decoration: none;
+//  text-align: center;
+//  outline: none;
+//  color: #1a1b1e;
+//  white-space: nowrap;
+//  transition: 0.3s;
+//}
+//
+ul#primary-menu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  /* align-content: center; */
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  letter-spacing: 0.5px;
+  padding: 0 8px;
+}
+
+li::after {
+  content: "";
+  position: absolute;
+  background-color: var(--main-color-text);
+  height: 1px;
+  width: 0;
+  //left: 0;
+  //right: 0;
+  top: 52px;
+  /* bottom: 30px; */
+  transition: all 0.5s ease;
+}
+
+li:hover::after {
+  width: 7%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+a.nav-link.links-width {
+  text-align: center;
 }
