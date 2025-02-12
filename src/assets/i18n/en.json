@@ -2,6 +2,11 @@
   "FLASH_CARD": {
     "HELP": "Press and check the answer"
   },
+  "HTML": {
+    "TITLE": "Start learning HTML questions.",
+    "BUTTON": "Start",
+    "FLASHCARDS": "Flashcards"
+  },
   "MAIN_PAGE": {
     "BUTTON": {
       "CHECK_MORE": "Check more"

@@ -6,17 +6,347 @@
   },
   {
     "id": 2,
-    "question": "2What is the purpose of the < !doctype html > declaration?",
-    "answer": "2HTML stands for HyperText Markup Language Markup means it is used to structure the content of the webpage. HTML contains the set of elements or tags which are used to define the structure and semantics of a webpage."
+    "question": "What is the purpose of the <!DOCTYPE html> declaration?",
+    "answer": "It informs the browser about the version of HTML being used and ensures proper rendering "
   },
   {
     "id": 3,
-    "question": "3What is the purpose of the < !doctype html > declaration?",
-    "answer": "3HTML stands for HyperText Markup Language Markup means it is used to structure the content of the webpage. HTML contains the set of elements or tags which are used to define the structure and semantics of a webpage."
+    "question": "What are the main sections of an HTML document?",
+    "answer": "The main sections are <html>, <head> and <body>. "
   },
   {
     "id": 4,
-    "question": "4What is the purpose of the < !doctype html > declaration?",
-    "answer": "4HTML stands for HyperText Markup Language Markup means it is used to structure the content of the webpage. HTML contains the set of elements or tags which are used to define the structure and semantics of a webpage."
+    "question": "How do you write a comment in HTML? ",
+    "answer": "A comment is create use \n <!-- comment -->. \n* keyboard -> ctrl + /"
+  },
+  {
+    "id": 5,
+    "question": "What is the purpose of the <head> element?",
+    "answer": "It holds info about: \n- Metadata, \n- Links to stylesheets, \n- scripts. \nIn general, it contains information that is not displayed directly on the page. "
+  },
+  {
+    "id": 6,
+    "question": "What is the purpose of the <title> element?",
+    "answer": "It sets the title of the web page, which is displayed on the browser tab. "
+  },
+  {
+    "id": 7,
+    "question": "What is the purpose of the <body> element?",
+    "answer": "It contains the content of the HTML document that is displayed in the browser. "
+  },
+  {
+    "id": 8,
+    "question": "How do you create a hyperlink in HTML?",
+    "answer": "Use the <a> tag with the href attribute. \n dodac przyklad"
+  },
+  {
+    "id": 9,
+    "question": "What is the difference between \nan absolute URL and a relative URL? ",
+    "answer": "- An absolute URL includes the full path (e.g. https://www.example.com/page), \n- Relative URL is relative to the current page's location (e.g., /page)."
+  },
+  {
+    "id": 10,
+    "question": "What is the difference between an element and a tag?",
+    "answer": "An element includes: \n- the opening tag, \n- content, \n- closing tag \n<p>content</p>. \n A tag is the part inside angle brackets \n<p> "
+  },
+  {
+    "id": 11,
+    "question": "How do you create a paragraph in HTML?",
+    "answer": "- The <p> element defines a paragraph of text. \n- It is a block-level element that automatically adds some space above and below the text. \n <p>This ia a paragraph.</p>"
+  },
+  {
+    "id": 12,
+    "question": "How do you create a line break in HTML? ",
+    "answer": "The <br> element inserts a line break within the text. \n It is an empty (void) element - it doesn't have a closing tag !"
+  },
+  {
+    "id": 13,
+    "question": "How do you make text bold in HTML?",
+    "answer": "Using <strong> indicate that the text is of strong importance. \nIt is a semantic element, in addition to styling it also conveys meaning. \n<strong>Text.</strong>"
+  },
+  {
+    "id": 14,
+    "question": "How do you make text bold in HTML?",
+    "answer": " The <em> element is used to emphasize text. \nIt is a semantic element. "
+  },
+  {
+    "id": 15,
+    "question": "How do you create a heading in HTML? ",
+    "answer": "The <h1> to <h6> elements define headings. \n<h1> being the highest (most important) level \n <h6> the lowest. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 17,
+    "question": "How do you create a horizontal line in HTML? ",
+    "answer": "A horizontal line is created using the <hr> tag. This tag is an empty tag and is used to insert a horizontal rule or divider. "
+  },
+  {
+    "id": 18,
+    "question": "What is the <pre> element used for? ",
+    "answer": " The <pre> element is used to define preformatted text. \nText within this element is displayed in a fixed-width font, and both spaces and line breaks are preserved."
+  },
+  {
+    "id": 19,
+    "question": "How do you create a superscript and subscript text in HTML?",
+    "answer": "- Superscript : The <sup> tag is used to define superscript text, which is text that appears slightly above the normal line of text. \n- Subscript : The <sub> tag is used to define subscript text, which is text that appears slightly below the normal line of text.  "
+  },
+  {
+    "id": 20,
+    "question": "How many levels of headings are there in HTML?",
+    "answer": "There are six levels of headings in HTML, ranging from <h1> to <h6>. "
+  },
+  {
+    "id": 21,
+    "question": "How do you create an unordered list in HTML? ",
+    "answer": "An unordered list (<ul>) uses bullet points for its list items <li>. "
+  },
+  {
+    "id": 22,
+    "question": "How do you create an ordered list in HTML?",
+    "answer": "An ordered list (<ol>) uses numbers for its list items (<li>)  "
+  },
+  {
+    "id": 23,
+    "question": "How do you create a list item in HTML? ",
+    "answer": "A list item (<li>) is used inside <ul> or <ol> to define each item in the list.  "
+  },
+  {
+    "id": 24,
+    "question": "What is the difference between the <ul> and <ol> elements? ",
+    "answer": "- <ul> creates a bulleted list, \n- <ol> creates a numbered list."
+  },
+  {
+    "id": 25,
+    "question": "How do you create a nested list in HTML?",
+    "answer": "A nested list is created by placing a <ul> or <ol> inside a <li> of another list. "
+  },
+  {
+    "id": 26,
+    "question": "How do you create an anchor link that jumps to a specific section within the same page?",
+    "answer": "Use the href attribute with a # followed by the id of the target section. \n <a href=\"#name_section\">Go to Section</a> \n <h2 id=\"name_section\">Section 1</h2>"
+  },
+  {
+    "id": 27,
+    "question": "How do you open a link in a new tab or window? ",
+    "answer": "Use the target=\"_blank\" attribute in the anchor tag. \n <a href=\"URL\" target=\"_blank\">Example</a> "
+  },
+  {
+    "id": 28,
+    "question": "What is the purpose of the target attribute in an anchor tag? ",
+    "answer": "The target attribute specifies where to open the linked document (e.g., _blank for a new tab/window).  "
+  },
+  {
+    "id": 29,
+    "question": "How do you link to an email address in HTML? ",
+    "answer": "Use the mailto: protocol in the href attribute. \n <a href=\"mailto:example@ex.com\">Sent Email</a>  "
+  },
+  {
+    "id": 30,
+    "question": "How do you create a navigation menu in HTML? ",
+    "answer": "Use a <nav> element containing an unordered list (<ul>) with list items (<li>) and anchor tags (<a>) for each menu link. \n<nav>\n <ul>\n   <li><a href=\"/portfolio\">Portfolio</a></li>\n   <li><a href=\"/about\">About</a></li>\n  </ul>\n</nav>  "
+  },
+  {
+    "id": 31,
+    "question": "How do you embed an image in an HTML page? ",
+    "answer": "Use the <img> tag with the src attribute to specify the image file path  \n* Add the alt attribute for alternative text. \n <img scr=\"img.jpg\" alt=\"Description of image\">"
+  },
+  {
+    "id": 32,
+    "question": "What is the purpose of the alt attribute in an image tag? ",
+    "answer": "The alt attribute provides alternative text for the image, which is displayed if the image cannot be loaded. \nAlso it is used by screen readers for accessibility. "
+  },
+  {
+    "id": 33,
+    "question": "How do you make an image a clickable link? ",
+    "answer": "Wrap the <img> tag inside an <a> tag. \n <a href=\"URL\">\n <img scr=\"img.jpg\" alt=\"Description of image\">\n</a>"
+  },
+  {
+    "id": 34,
+    "question": "What are the properties of inline elements?",
+    "answer": "- Do not start on a new line\n- Only takes up as much width as necessary \n- Only as high as its content\n- Top and bottom margins/padding not respected \n- Can be nested inside block elements \n- Does not cause a line break before and after.\nExample: <span>, <a>, <img>, <strong> "
+  },
+  {
+    "id": 35,
+    "question": "What are the properties of block-level elements?",
+    "answer": "- Always start on a new line \n- Takes up the full width available \n- Can have a specified height\n-  Margins and padding respected on all sides \n- Can contain both inline and block elements \n- Causes a line break before and after\nExample: <div>, <p>, <h1>, <section>   "
+  },
+  {
+    "id": 36,
+    "question": "Describe HTML semantic elements.",
+    "answer": "Elements that clearly describe their meaning in a human- and machine-readable way\n- Easier to read and maintain due to clear meaning and structure\nBetter support for assistive technologies, making content more accessible \nImproved search engine optimization as search engines better understands the content structure.\n<header>, <nav>, <article>, <section><footer>, <aside>, <main>  "
+  },
+  {
+    "id": 37,
+    "question": "Describe HTML Non-semantic elements",
+    "answer": "Elements that do not provide clear meaning or context about their content \nTo define sections of a page without any inherent meaning\nHarder to read and maintain as they require class or id attributes to convey meaning \nPoor support for assistive technologies as they lack semantic meaning\n<div>, <span>"
+  },
+  {
+    "id": 38,
+    "question": "How do you create a table in HTML?",
+    "answer": "<table> tag to define the table, \n<thead> - for structuring the table's header,\n<tbody> - for structuring the table's body,\n <tfoot> - for structuring the table's  footer. "
+  },
+  {
+    "id": 39,
+    "question": "How do you create a table row in HTML?",
+    "answer": " <tr> tag - define a table row. \nIt contains the table cells <td> and <th>. "
+  },
+  {
+    "id": 40,
+    "question": "How do you create a table cell in HTML? ",
+    "answer": "Use the <td> tag for a data cell or the <th> tag for a header cell within a <tr> (table row). \n "
+  },
+  {
+    "id": 41,
+    "question": "What is the purpose of the <thead>, <tbody>, and <tfoot> elements?",
+    "answer": "<thead>: Groups the header content of a table, \n<tbody>: Groups the body content of a table, \n<tfoot>: Groups the footer content of a table.  "
+  },
+  {
+    "id": 42,
+    "question": "How do you merge cells in a table? ",
+    "answer": "Use the colspan attribute to merge cells horizontally  \nUse the rowspan attribute to merge cells vertically. \n <td colspan=\"2\">Cell</td>\n <td rowspan=\"2\">Cell</td>  "
+  },
+  {
+    "id": 43,
+    "question": "How do you create a form in HTML?",
+    "answer": " To create a form in HTML, use the <form> element. \n <form action=\"submit-form\" method=\"post\"> ...form elements</form>"
+  },
+  {
+    "id": 44,
+    "question": "What is the purpose of the <form> element?",
+    "answer": "The <form> element is used to create an HTML form for user input.  \nIt can contain various input elements like text fields, checkboxes, radio buttons, and submit buttons.  \nIt also defines where and how the data should be submitted.  "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+  },
+  {
+    "id": 16,
+    "question": "What is the <blockquote> element used for?",
+    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
   }
 ]

@@ -2,6 +2,11 @@
   "FLASH_CARD": {
     "HELP": "Kliknij i sprawdź odpowiedź"
   },
+  "HTML": {
+    "TITLE": "Rozpocznij naukę pytań HTML.",
+    "BUTTON": "Start",
+    "FLASHCARDS": "Fiszek"
+  },
   "MAIN_PAGE": {
     "BUTTON": {
       "CHECK_MORE": "Zobacz więcej"
