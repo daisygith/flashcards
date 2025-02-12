@@ -22,7 +22,7 @@
         </div>
       </div>
       <div class="header-link">
-        <ul id="primary-menu" class="menu">
+        <ul id="primary-menu" class="menu" [class.menu--open]="isMenuOpen">
           <li id="menu-item-questions" class="nav-item" data-text="questions">
             <a class="nav-link links-width" href="/questions">{{
               "NAVBAR.QUESTIONS" | translate
@@ -41,6 +41,21 @@
             }}</a>
           </li>
         </ul>
+      </div>
+      <div
+        class="header-contact header-menu"
+        [class.hamburger--open]="isMenuOpen"
+      >
+        <a class="button" (click)="toggleMenu()">
+          <div class="btn-contact">
+            <div class="hamburger">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+            <!--            <p class="t-btn-contact">Menu</p>-->
+          </div>
+        </a>
       </div>
     </div>
   </nav>

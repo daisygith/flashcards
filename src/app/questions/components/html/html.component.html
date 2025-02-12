@@ -2,14 +2,14 @@
   @if (!isStarted) {
     <section class="elements">
       <div class="html-title">
-        <p class="h3">Study HTML questions.</p>
+        <p class="h3">{{ "HTML.TITLE" | translate }}</p>
       </div>
       <div class="html-image">
         <img src="assets/images/html.png" alt="html" />
       </div>
       <div class="html-button">
         <button type="button" class="btn btn-info html-more" (click)="start()">
-          Start study
+          {{ "HTML.BUTTON" | translate }}
         </button>
       </div>
       <div class="container bottom">
@@ -17,7 +17,7 @@
           <div class="line1">
             <span class="material-symbols-outlined"> filter_1 </span>
             <span>123</span>
-            <span>flashcards</span>
+            <span> {{ "HTML.FLASHCARDS" | translate }}</span>
           </div>
         </div>
       </div>

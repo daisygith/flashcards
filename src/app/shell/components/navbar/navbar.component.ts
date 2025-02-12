@@ -22,7 +22,14 @@ import {
 })
 export class NavbarComponent {
   public translate: TranslateService = inject(TranslateService);
+  public isMenuOpen: boolean = false;
+
   public get languages(): string[] {
     return this.translate.getLangs();
+  }
+
+  toggleMenu(): void {
+    console.log('toggleMenu');
+    this.isMenuOpen = !this.isMenuOpen;
   }
 }

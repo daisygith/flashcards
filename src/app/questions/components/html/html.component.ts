@@ -7,7 +7,7 @@ import {
   NgbSlide,
 } from '@ng-bootstrap/ng-bootstrap';
 import { FlashcardComponent } from '../../../shared/components/flashcard/flashcard.component';
-import { TranslateService } from '@ngx-translate/core';
+import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { QuestionsService } from '../../services/questions.service';
 import { distinctUntilChanged, switchMap } from 'rxjs';
@@ -15,7 +15,7 @@ import { distinctUntilChanged, switchMap } from 'rxjs';
 @Component({
   selector: 'app-html',
   standalone: true,
-  imports: [NgbCarousel, NgbSlide, FlashcardComponent],
+  imports: [NgbCarousel, NgbSlide, FlashcardComponent, TranslatePipe],
   templateUrl: './html.component.html',
   styleUrl: './html.component.scss',
 })
