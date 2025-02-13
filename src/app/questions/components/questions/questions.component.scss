@@ -2,3 +2,18 @@ img {
   width: 220px;
   height: 228px;
 }
+
+@media (max-width: 800px) {
+  .question-cart {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .question-cart {
+    grid-template-columns: 1fr;
+  }
+  .card-body {
+    text-align: center;
+  }
+}

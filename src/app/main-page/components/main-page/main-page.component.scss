@@ -105,13 +105,13 @@ app-main-page {
     }
   }
 
-  @media (max-width: 1366px) {
-  }
-
-  @media (max-width: 1200px) {
-  }
-  @media (max-width: 1024px) {
-  }
+  //@media (max-width: 1366px) {
+  //}
+  //
+  //@media (max-width: 1200px) {
+  //}
+  //@media (max-width: 1024px) {
+  //}
   @media (max-width: 800px) {
     .container.top {
       grid-template-columns: auto;
@@ -120,14 +120,13 @@ app-main-page {
     .container-right {
       margin-top: 30px;
     }
+    .question-cart {
+      grid-template-columns: 1fr 1fr;
+    }
   }
   @media (max-width: 768px) {
     .container-left {
       font-size: 40px;
-    }
-
-    .question-cart {
-      grid-template-columns: 1fr 1fr;
     }
   }
   @media (max-width: 480px) {
