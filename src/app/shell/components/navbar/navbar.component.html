@@ -24,7 +24,7 @@
       <div class="header-link">
         <ul id="primary-menu" class="menu" [class.menu--open]="isMenuOpen">
           <li id="menu-item-questions" class="nav-item" data-text="questions">
-            <a class="nav-link links-width" href="/questions">{{
+            <a class="nav-link links-width" [routerLink]="'/questions'">{{
               "NAVBAR.QUESTIONS" | translate
             }}</a>
           </li>

@@ -6,6 +6,7 @@ import {
   NgbDropdownMenu,
   NgbDropdownToggle,
 } from '@ng-bootstrap/ng-bootstrap';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -16,6 +17,7 @@ import {
     NgbDropdownMenu,
     NgbDropdownItem,
     TranslatePipe,
+    RouterLink,
   ],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss',

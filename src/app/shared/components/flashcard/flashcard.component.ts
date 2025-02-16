@@ -1,11 +1,12 @@
 import { Component, Input } from '@angular/core';
 import { Question } from '../../../questions/types';
 import { TranslatePipe } from '@ngx-translate/core';
+import { SafeHtmlPipe } from '../../pipes/safe-html.pipe';
 
 @Component({
   selector: 'app-flashcard',
   standalone: true,
-  imports: [TranslatePipe],
+  imports: [TranslatePipe, SafeHtmlPipe],
   templateUrl: './flashcard.component.html',
   styleUrl: './flashcard.component.scss',
 })

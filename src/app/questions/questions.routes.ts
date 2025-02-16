@@ -15,7 +15,7 @@ export const questionsRoutes: Routes = [
       {
         path: 'html',
         resolve: { questions: questionsResolver },
-        data: { type: 'html' },
+        data: { type: 'sql' },
         loadComponent: () =>
           import('./components/html/html.component').then(
             (c) => c.HtmlComponent,
