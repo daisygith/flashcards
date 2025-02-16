@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "question": "What is Database?",
+    "answer": "A <strong>database</strong> is an organized collection of data, stored and retrieved digitally from a remote or local computer system. Databases can be vast and complex, and such databases are developed using fixed design and modeling approaches. "
+  },
+  {
+    "id": 2,
+    "question": "What is DBMS?",
+    "answer": "DBMS stands for Database Management System. DBMS is a system software responsible for the creation, retrieval, updation, and management of the database. It ensures that our data is consistent, organized, and is easily accessible by serving as an interface between the database and its end-users or application software. "
+  },
+  {
+    "id": 3,
+    "question": "What is RDBMS?",
+    "answer": "RDBMS stands for Relational Database Management System. Most modern database management systems like MySQL, Microsoft SQL Server, Oracle, IBM DB2, and Amazon Redshift are based on RDBMS.  "
+  },
+  {
+    "id": 4,
+    "question": "What is the difference between DBMS and RDBMS?",
+    "answer": "DBMS stores the information in files, but RDBMS stores them in tables."
+  },
+  {
+    "id": 5,
+    "question": "What is SQL?",
+    "answer": "SQL stands for Structured Query Language. It is the standard language for relational database management systems. It is especially useful in handling organized data comprised of entities (variables) and relations between different entities of the data. "
+  },
+  {
+    "id": 6,
+    "question": "What is the difference between SQL and MySQL?",
+    "answer": "SQL is a standard language for retrieving and manipulating structured databases. On the contrary, MySQL is a relational database management system, like SQL Server, Oracle or IBM DB2, that is used to manage SQL databases. "
+  },
+  {
+    "id": 7,
+    "question": "What are Tables and Fields?",
+    "answer": "A table is an organized collection of data stored in the form of rows and columns. Columns can be categorized as vertical and rows as \nhorizontal. The columns in a table are called fields while the rows can be referred to as records. "
+  },
+  {
+    "id": 8,
+    "question": "What are Constraints in SQL?",
+    "answer": "Constraints are used to specify the rules concerning data in the table. It can be applied for single or multiple fields in an SQL table during the creation of the table or after creating using the ALTER TABLE command. The constraints are:\n• NOT NULL - Restricts NULL value from being inserted into a column. \n• CHECK - Verifies that all values in a field satisfy a condition. \n• DEFAULT - Automatically assigns a default value if no value has been specified for the field\n• UNIQUE - Ensures unique values to be inserted into the field. \n• INDEX - Indexes a field providing faster retrieval of records. \n• PRIMARY KEY - Uniquely identifies each record in a table. \n• FOREIGN KEY - Ensures referential integrity for a record in another table. "
+  },
+  {
+    "id": 9,
+    "question": "What is a Primary Key?",
+    "answer": "The PRIMARY KEY constraint uniquely identifies each row in a table. It must contain UNIQUE values and has an implicit NOT NULL constraint. A table in SQL is strictly restricted to have one and only one primary key, which is comprised of single or multiple fields (columns). \nCREATE TABLE Students (\n   ID INT NOT NULL \n   Name VARCHAR(255) \n   PRIMARY KEY (ID) \n);"
+  },
+  {
+    "id": 10,
+    "question": "What is a UNIQUE constraint? ",
+    "answer": "A UNIQUE constraint ensures that all values in a column are different. This provides uniqueness for the column(s) and helps identify each \nrow uniquely. Unlike primary key, there can be multiple unique constraints defined per table. The code syntax for UNIQUE is quite similar to that of PRIMARY KEY and can be used interchangeably. \nCREATE TABLE Students (   \n   ID INT NOT NULL UNIQUE \n   Name VARCHAR(255) \n); "
+  },
+  {
+    "id": 11,
+    "question": "What is a Foreign Key? ",
+    "answer": "A FOREIGN KEY comprises of single or collection of fields in a table that essentially refers to the PRIMARY KEY in another table. Foreign key constraint ensures referential integrity in the relation between two tables. The table with the foreign key constraint is labeled as the child table, and the table containing the candidate key is labeled as the referenced or parent table. \nCREATE TABLE Students (   \n   ID INT NOT NULL \n   Name VARCHAR(255) \n   LibraryID INT \n   PRIMARY KEY (ID) \n   FOREIGN KEY (Library_ID) REFERENCES Library(LibraryID) \n); "
+  },
+  {
+    "id": 12,
+    "question": "What is a Join?",
+    "answer": "The SQL Join clause is used to combine records (rows) from two or more tables in a SQL database based on a related column between the two. "
+  },
+  {
+    "id": 13,
+    "question": "List its different types of Join.",
+    "answer": "• (INNER) JOIN: Retrieves records that have matching values in both tables involved in the join. This is the widely used join for queries. \n• LEFT (OUTER) JOIN: Retrieves all the records/rows from the left and the matched records/rows from the right table.\n• RIGHT (OUTER) JOIN: Retrieves all the records/rows from the right and the matched records/rows from the left table. \n• FULL (OUTER) JOIN: Retrieves all the records where there is a match in either the left or right table. "
+  },
+  {
+    "id": 14,
+    "question": "What is a Self-Join? ",
+    "answer": "A self JOIN is a case of regular join where a table is joined to itself based on some relation between its own column(s). Self-join uses the nINNER JOIN or LEFT JOIN clause and a table alias is used to assign different names to the table within the query. "
+  },
+  {
+    "id": 15,
+    "question": "What is a Cross-Join? ",
+    "answer": "The CROSS JOIN is used to generate a paired combination of each row of the first table with each row of the second table. This join type is also known as cartesian join."
+  },
+  {
+    "id": 16,
+    "question": "What is an Index?",
+    "answer": "A database index is a data structure that provides a quick lookup of data in a column or columns of a table. It enhances the speed of operations accessing data from a database table at the cost of additional writes and memory to maintain the index data structure.\nCREATE INDEX index_name   /* Create Index */ \nON table_name (column_1, column_2); \nDROP INDEX index_name;   /* Drop Index */  \nThe index types include the following: \n • Unique and Non-Unique Index\n • Clustered and Non-Clustered Index "
+  },
+  {
+    "id": 17,
+    "question": "What are differences between Unique and Non-Unique Index?",
+    "answer": "Unique indexes are indexes that help maintain data integrity by ensuring that no two rows of data in a table have identical key values. Once a unique index has been defined for a table, uniqueness is enforced whenever keys are added or changed within the index. \nNon-unique indexes, on the other hand, are not used to enforce constraints on the tables with which they are associated. Instead, non-unique indexes are used solely to improve query performance by maintaining a sorted order of data values that are used frequently. "
+  },
+  {
+    "id": 18,
+    "question": "What are differences between Clustered and Non-Clustered Index?",
+    "answer": "Unique indexes are indexes that help maintain data integrity by ensuring that no two rows of data in a table have identical key values. Once a unique index has been defined for a table, uniqueness is enforced whenever keys are added or changed within the index. \nNon-unique indexes, on the other hand, are not used to enforce constraints on the tables with which they are associated. Instead, non-unique indexes are used solely to improve query performance by maintaining a sorted order of data values that are used frequently. "
+  }
+]

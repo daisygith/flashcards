@@ -177,7 +177,7 @@
   {
     "id": 36,
     "question": "Opisz elementy semantyczne HTML.",
-    "answer": "Elementy, które jasno opisują ich znaczenie w sposób czytelny dla człowieka i maszyny\n- Są łatwiejsze do odczytania i utrzymania dzięki jasnemu znaczeniu i strukturze\n- Lepsze wsparcie dla technologii wspomagających, dzięki czemu treść jest bardziej dostępna\n- Ulepszona optymalizacja pod kątem wyszukiwarek, wyszukiwarki - rozumieją strukturę treści. \n<header>, <nav>, <article>, <section><footer>, <aside>, <main>                                           "
+    "answer": "Elementy, które jasno opisują ich znaczenie w sposób czytelny dla człowieka i maszyny\n- Są łatwiejsze do odczytania i utrzymania dzięki jasnemu znaczeniu i strukturze\n- Lepsze wsparcie dla technologii wspomagających, dzięki czemu treść jest bardziej dostępna\n- Ulepszona optymalizacja pod kątem wyszukiwarek, wyszukiwarki - rozumieją strukturę treści. \n<header>, <nav>, <article>, <section>, <footer>, <aside>, <main>                                           "
   },
   {
     "id": 37,
@@ -220,129 +220,129 @@
     "answer": "<form> służy do tworzenia formularzy HTML. \nMoże zawierać różne elementy wprowadzania danych, takie jak pola tekstowe, pola wyboru, przyciski radiowe i przyciski przesyłania. \nDefiniuje gdzie i w jaki sposób dane powinny zostać przesłane."
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 45,
+    "question": "Jak utworzyć pole do wprowadzania tekstu(input) w HTML?",
+    "answer": "Trzeba użyć elementu <input> z type=\"text\". \n<input type=\"text\" name=\"username\"> "
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 46,
+    "question": "Jak utworzyć pole wprowadzania hasła w HTML?",
+    "answer": "Trzeba użyć elementu <input> z type=\"password\". \n<input type=\"password\" name=\"password\">"
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 47,
+    "question": "Jak utworzyć przycisk typu radio w HTML?",
+    "answer": "Trzeba użyć elementu <input> z type=\"radio\". \n<input type=\"radio\" name=\"username\" value=\"male\">Male "
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 48,
+    "question": "Jak utworzyć pole wyboru (checkbox) w HTML?",
+    "answer": "Trzeba użyć elementu <input> z type=\"checkbox\". "
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 49,
+    "question": "Jak utworzyć listę rozwijaną w HTML?",
+    "answer": "Trzeba użyć elementu <select> z elementami <option>. \n<select =\"numbers\">\n <option value=\"1\">1</option>\n <option value=\"2\">2</option>\n</select>"
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 50,
+    "question": "Jak utworzyć przycisk „Prześlij” w HTML?",
+    "answer": "Trzeba użyć elementu <input> z type=\"submit\" lub <button> z type=\"submit\". \n<input type=\"submit\" value=\"submit\">Submit</input> lub \n<button type=\"submit\" value=\"submit\">Submit></button> "
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 51,
+    "question": "Jaki jest cel atrybutu action w formularzu?",
+    "answer": "Atrybut action określa adres URL, do którego należy przesłać dane formularza. Informuje przeglądarkę, gdzie wysłać dane formularza po przesłaniu."
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 52,
+    "question": "Jaki jest cel atrybutu \"method\" w formularzu?",
+    "answer": "Atrybut method określa metodę HTTP (GET lub POST), która ma zostać użyta podczas przesyłania danych formularza.\nGET dołącza dane formularza do adresu URL, natomiast POST wysyła dane formularza w treści żądania, co jest bezpieczniejsze w przypadku poufnych informacji. "
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 53,
+    "question": "Czym jest semantyczny HTML?",
+    "answer": "Semantyczny HTML odnosi się do stosowania znaczników HTML, które jasno opisują ich znaczenie w sposób czytelny dla człowieka i maszyny. Znaczniki te przekazują strukturę treści, a nie tylko jej wygląd."
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 54,
+    "question": "Dlaczego semantyczny HTML jest ważny?",
+    "answer": "Semantyczny HTML zwiększa dostępność, SEO i łatwość utrzymania.\nPomaga czytnikom ekranu i wyszukiwarkom lepiej zrozumieć treść"
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 55,
+    "question": "Do czego służy element <article>?",
+    "answer": "<article> służy do definiowania niezależnego, samodzielnego fragmentu treści, który można rozpowszechniać i wykorzystywać ponownie - niezależnie, np. wpisy na blogu, artykuły lub wiadomości. "
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 56,
+    "question": "Do czego służy element <section>?",
+    "answer": "<section> definiuje tematyczne grupowanie treści, zazwyczaj z nagłówkiem.\nSłuży do organizowania treści w sensowne sekcje na stronie. "
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 57,
+    "question": "Do czego służy element <nav>?",
+    "answer": "<nav> oznacza sekcję łączy nawigacyjnych, takich jak menu lub spisy treści.\nSłuży do definiowania bloków nawigacyjnych na stronie lub w witrynie. "
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 58,
+    "question": "Do czego służy element <aside>?",
+    "answer": "<aside> stosuje się do treści pośrednio związanych z główną treścią strony, np. paski boczne, cytaty lub reklamy. "
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 59,
+    "question": "Do czego służy element <header>?",
+    "answer": "<header> zazwyczaj zawiera wprowadzającą treść lub elementy na górze strony lub sekcji.\nCzęsto zawiera nagłówki, loga, linki nawigacyjne lub formularze wyszukiwania."
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 60,
+    "question": "Do czego służy element <footer>?",
+    "answer": "<footer> służy do umieszczania informacji, które pojawiają się na dole strony internetowej lub sekcji.\nMoże obejmować informacje o prawach autorskich, dane kontaktowe lub linki do powiązanych treści."
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 61,
+    "question": "Do czego służy element <main>?",
+    "answer": "<main> określa główną zawartość strony internetowej lub sekcji.\n Wyklucza zawartość taką jak menu nawigacyjne, które są powtarzane na wielu stronach. "
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 62,
+    "question": "Do czego służą elementy <figure> i <figcaption>?",
+    "answer": "<figure> służy do enkapsulacji zawartości multimedialnej, takiej jak obrazy, filmy lub wykresy.\n<figcaption> zapewnia podpis lub opis zawartości wewnątrz <figure> "
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 63,
+    "question": "Jak dodać video w HTML?",
+    "answer": "Należy użyć elementu <video>. \n<video width=\"size\" height=\"size\" controls>\n <source src=\"video.mp4\" type=\"video/mp4\">Video\n</video>\nAtrybuty width i height określają wymiary odtwarzacza video.\nElement <source> wewnątrz <video> udostępnia różne formaty wideo (atrybut src) i ich typy MIME (atrybut type).\nAtrybut controls dodaje elementy sterujące odtwarzaniem (odtwarzanie, pauza, głośność itd.). "
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 64,
+    "question": "Jak dodać plik audio w HTML?",
+    "answer": "Dodawanie pliku audio jest podobne do dodawania pliku video. Dodajemy element <audio>. \n<audio controls>\n <source src=\"audio.mp3\" type=\"audio/mpeg\">Audio\n</audio> "
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 65,
+    "question": "Jaki jest cel elementu <source> w multimediach?",
+    "answer": "Element <source> jest używany wewnątrz elementów <audio> i <video> w celu określenia wielu zasobów multimedialnych.\nUmożliwia przeglądarce wybór najbardziej odpowiedniego pliku do odtworzenia w oparciu o typ multimediów i obsługę kodeków urządzenia użytkownika.\nZapewnia to zgodność między różnymi przeglądarkami i urządzeniami. "
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 66,
+    "question": "Jak dodać film z YouTube w HTML?",
+    "answer": "Aby dodać film z serwisu YouTube, należy użyć elementu <iframe> udostępnionego przez serwis YouTube. \n<iframe width=\"560\" height=\"315\" src=\"URL\" frameborder=\"0\" allowfullscreen></iframe>"
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 67,
+    "question": "Do czego służy element <canvas>?",
+    "answer": "Element <canvas> w HTML służy do rysowania grafiki, animacji lub innych obrazów wizualnych w locie za pomocą JavaScript.\nZapewnia przestrzeń do rysowania, w której można programowo tworzyć i manipulować grafiką, taką jak wykresy, animacje, gry lub interaktywne wizualizacje.\nZawartość wewnątrz <canvas> jest renderowana dynamicznie i może być aktualizowana zależnie od działań użytkownika lub innych zdarzeń."
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 68,
+    "question": "Do czego służy element <datalist>?",
+    "answer": "Element <datalist> zawiera listę predefiniowanych opcji dla elementu <input>, często używanych do funkcji autouzupełniania.\nUżytkownicy mogą wpisać niestandardową wartość lub wybrać spośród predefiniowanych opcji."
   },
   {
-    "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.\nIt is typically displayed as an indented block of \ntext. "
+    "id": 69,
+    "question": "Do czego służy element <progress>?",
+    "answer": "Element <progress> reprezentuje postęp realizacji zadania, takiego jak pobieranie lub przesyłanie pliku.\nAtrybut value określa bieżący postęp, a atrybut max definiuje wartość całkowitą, renderując wizualny pasek postępu. \n<progress value=\"70\" max=\"100\"></progress>"
   },
   {
     "id": 16,

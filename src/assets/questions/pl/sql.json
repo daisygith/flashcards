@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "question": "Co to jest baza danych ?",
+    "answer": "Baza danych to uporządkowany zbiór danych, przechowywany i pobierany cyfrowo ze zdalnego lub lokalnego systemu komputerowego. Bazy danych mogą być rozległe i złożone, a takie bazy danych są opracowywane przy użyciu stałych podejść projektowych i modelowania."
+  },
+  {
+    "id": 2,
+    "question": "Co to jest DBMS?",
+    "answer": "DBMS oznacza Database Management System (System Zarządzania Bazą Danych). DBMS to oprogramowanie systemowe odpowiedzialne za tworzenie, pobieranie, aktualizację i\nzarządzanie bazą danych. Zapewnia, że nasze dane są spójne, zorganizowane i łatwo dostępne, służąc jako interfejs międzyn bazą danych a jej użytkownikami końcowymi lub oprogramowaniem aplikacji."
+  },
+  {
+    "id": 3,
+    "question": "What is RDBMS?",
+    "answer": "RDBMS to Relational Database Management System (System Zarządzania Relacyjną Bazą Danych). Większość nowoczesnych systemów zarządzania bazami danych, takich jak MySQL, Microsoft SQL Server, Oracle, IBM DB2 i Amazon Redshift, opiera się na RDBMS."
+  },
+  {
+    "id": 4,
+    "question": "Czym różni się DBMS od RDBMS?",
+    "answer": "DBMS - przechowuje informacje w plikach, natomiast RDBMS - przechowuje informacje w tabelach."
+  },
+  {
+    "id": 5,
+    "question": "Czym jest SQL?",
+    "answer": "SQL oznacza Structured Query Language (język zapytań strukturalnych). Jest to standardowy język dla systemów zarządzania relacyjnymi bazami danych. Jest szczególnie przydatny do obsługi zorganizowanych danych składających się z encji (zmiennych) i relacji między różnymi encjami danych."
+  },
+  {
+    "id": 6,
+    "question": "Jaka jest różnica pomiędzy SQL i MySQL?",
+    "answer": "SQL to standardowy język do pobierania i manipulowania ustrukturyzowanymi bazami danych. MySQL to z kolei system zarządzania relacyjnymi bazami danych, taki jak SQL Server, Oracle lub IBM DB2, który służy do zarządzania bazami danych SQL."
+  },
+  {
+    "id": 7,
+    "question": "Czym są tabele i pola?",
+    "answer": "Tabela to uporządkowany zbiór danych przechowywanych w formie wierszy i kolumn. Kolumny można podzielić na pionowe, a wiersze na poziome. Kolumny w tabeli nazywane są polami, a wiersze rekordami."
+  },
+  {
+    "id": 8,
+    "question": "Czym są ograniczenia w SQL?",
+    "answer": "Ograniczenia służą do określania reguł dotyczących danych w tabeli. Mogą być stosowane do pojedynczych lub wielu pól w tabeli SQL podczas tworzenia tabeli lub po utworzeniu za pomocą polecenia ALTER TABLE. Ograniczenia są następujące:\n• NOT NULL — Ogranicza wstawianie wartości NULL do kolumny.\n• CHECK — Sprawdza, czy wszystkie wartości w polu spełniają warunek.\n• DEFAULT — Automatycznie przypisuje wartość domyślną, jeśli dla pola nie określono żadnej wartości.\n• UNIQUE — Zapewnia, że w polu zostaną wstawione unikalne wartości.\n• INDEX — Indeksuje pole, zapewniając szybsze wyszukiwanie rekordów.\n• PRIMARY KEY — Unikalnie identyfikuje każdy rekord w tabeli.\n• FOREIGN KEY — Zapewnia integralność referencyjną rekordu w innej tabeli."
+  },
+  {
+    "id": 9,
+    "question": "Czym jest Primary Key?",
+    "answer": "PRIMARY KEY jednoznacznie identyfikuje każdy wiersz w tabeli. Musi zawierać wartości UNIQUE i ma niejawne ograniczenie NOT NULL. Tabela w SQL jest ściśle ograniczona do posiadania jednego i tylko jednego klucza podstawowego, który składa się z pojedynczych lub wielu pól (kolumn). \nCREATE TABLE Students (\n   ID INT NOT NULL \n   Name VARCHAR(255) \n   PRIMARY KEY (ID) \n); "
+  },
+  {
+    "id": 10,
+    "question": "Czym jest UNIQUE?",
+    "answer": "UNIQUE zapewnia, że wszystkie wartości w kolumnie są różne. Zapewnia to unikalność kolumn i pomaga w unikatowej identyfikacji każdego wiersza. W przeciwieństwie do klucza podstawowego, dla każdej tabeli można zdefiniować wiele ograniczeń unikalności. Składnia kodu dla UNIQUE jest bardzo podobna do składni PRIMARY KEY i może być stosowana zamiennie. \nCREATE TABLE Students (   \n   ID INT NOT NULL UNIQUE \n   Name VARCHAR(255) \n); "
+  },
+  {
+    "id": 11,
+    "question": "Czym jest Foreign Key?",
+    "answer": "Foreign Key składa się z pojedynczego pola lub zbioru pól w tabeli, które zasadniczo odnoszą się do Primary Key w innej tabeli. Ograniczenie klucza obcego zapewnia integralność referencyjną w relacji między dwiema tabelami. Tabela z ograniczeniem klucza obcego jest oznaczona jako tabela podrzędna, a tabela zawierająca klucz kandydujący jest oznaczona jako tabela odwoławcza lub nadrzędna. \nCREATE TABLE Students (   \n   ID INT NOT NULL \n   Name VARCHAR(255) \n   LibraryID INT \n   PRIMARY KEY (ID) \n   FOREIGN KEY (Library_ID) REFERENCES Library(LibraryID) \n);  "
+  },
+  {
+    "id": 12,
+    "question": "Czym jest Join?",
+    "answer": "Join służy do łączenia rekordów (wierszy) z dwóch lub więcej tabel w bazie danych SQL na podstawie powiązanej kolumny między nimi."
+  },
+  {
+    "id": 13,
+    "question": "Wymień różne typy Join.",
+    "answer": "• (INNER) JOIN: Pobiera rekordy, które mają pasujące wartości w obu tabelach biorących udział w połączeniu. Jest to powszechnie używane połączenie w zapytaniach. \n• LEFT (OUTER) JOIN: Pobiera wszystkie rekordy/wiersze z lewej tabeli i dopasowane rekordy/wiersze z prawej tabeli.\n• RIGHT (OUTER) JOIN: Pobiera wszystkie rekordy/wiersze z prawej tabeli i dopasowane rekordy/wiersze z lewej tabeli.\n• FULL (OUTER) JOIN: Pobiera wszystkie rekordy, dla których znaleziono dopasowanie w tabeli lewej lub prawej."
+  },
+  {
+    "id": 14,
+    "question": "Czym jest Self-Join?",
+    "answer": "Self JOIN to przypadek zwykłego łączenia, w którym tabela jest łączona sama ze sobą na podstawie pewnej relacji między jej własnymi kolumnami. Self-join używa INNER JOIN lub LEFT JOIN, a alias tabeli jest używany do przypisywania różnych nazw tabeli w zapytaniu."
+  },
+  {
+    "id": 15,
+    "question": "Czym jest Cross-Join?",
+    "answer": "CROSS JOIN służy do generowania sparowanej kombinacji każdego wiersza pierwszej tabeli z każdym wierszem drugiej tabeli. Ten typ połączenia jest również znany jako połączenie kartezjańskie."
+  },
+  {
+    "id": 16,
+    "question": "Czym jest Index?",
+    "answer": "Indeks bazy danych to struktura danych, która umożliwia szybkie wyszukiwanie danych w kolumnie lub kolumnach tabeli. Zwiększa szybkość operacji uzyskiwania dostępu do danych z tabeli bazy danych, kosztem dodatkowych zapisów i pamięci w celu, zachowania struktury danych indeksu.\nCREATE INDEX index_name   /* Create Index */ \nON table_name (column_1, column_2); \nDROP INDEX index_name;   /* Drop Index */  \nW index wyróżniamy następujące typy: \n • Unique and Non-Unique Index\n • Clustered and Non-Clustered Index"
+  },
+  {
+    "id": 18,
+    "question": "Jakie są różnice między Clustered i Non-Clustered Index?",
+    "answer": "Unique Indexes - Indeksy unikalne to indeksy, które pomagają zachować integralność danych zapewniając, że żadne dwa wiersze danych w tabeli nie mają identycznych wartości kluczy. Po zdefiniowaniu indeksu unikalnego dla tabeli, unikalność jest wymuszana za każdym razem, gdy klucze są dodawane lub zmieniane w indeksie.\n Non-unique indexes - indeksy nieunikalne są używane wyłącznie w celu poprawy wydajności zapytania poprzez utrzymanie posortowanej kolejności według często używanych wartości danych."
+  }
+]
