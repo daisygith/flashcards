@@ -46,9 +46,9 @@ app-main-page {
   }
 
   .questions-more:hover {
-    background-color: var(--second-color-backround) !important;
-    border-color: var(--main-color-text) !important;
-    color: var(--main-color-text) !important;
+    background-color: var(--color-additional-help) !important;
+    border-color: transparent !important;
+    color: var(--color-background-flashcard) !important;
   }
 
   .test-text {
@@ -73,6 +73,7 @@ app-main-page {
   .card-test-resize:hover {
     background-color: var(--second-color-backround) !important;
     color: var(--main-color-text) !important;
+    border-color: transparent !important;
   }
 
   .slide-bottom-2 {

@@ -23,10 +23,11 @@ body {
   --main-color-text: #000000;
   --color-html: #f16529;
   --color-background-flashcard: #ffffff;
+  --color-additional-help: #7e72bc;
 }
 
 section {
-  margin: 100px 0 0 0;
+  margin: 50px 0 50px 0;
   //height: 674px;
 }
 
@@ -44,6 +45,13 @@ section {
 
 a {
   text-decoration: none !important;
+}
+
+//links-navigation
+li {
+  list-style: none;
+  letter-spacing: 0.5px;
+  padding: 0 8px;
 }
 
 //questions
