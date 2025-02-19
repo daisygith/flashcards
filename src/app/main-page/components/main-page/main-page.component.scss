@@ -55,26 +55,26 @@ app-main-page {
     margin: 0 0 30px 0;
   }
 
-  .card-body-test {
-    margin: 0;
-  }
+  //.card-body-test {
+  //  margin: 0;
+  //}
+  //
+  //.card-body-test > span {
+  //  display: flex;
+  //  justify-content: center;
+  //  flex-wrap: nowrap;
+  //  flex-direction: row;
+  //}
 
-  .card-body-test > span {
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-  }
-
-  .card-test-resize {
-    background-color: var(--main-color-text) !important;
-    color: var(--second-color-backround) !important;
-  }
-  .card-test-resize:hover {
-    background-color: var(--second-color-backround) !important;
-    color: var(--main-color-text) !important;
-    border-color: transparent !important;
-  }
+  //.card-test-resize {
+  //  background-color: var(--main-color-text) !important;
+  //  color: var(--second-color-backround) !important;
+  //}
+  //.card-test-resize:hover {
+  //  background-color: var(--second-color-backround) !important;
+  //  color: var(--main-color-text) !important;
+  //  border-color: transparent !important;
+  //}
 
   .slide-bottom-2 {
     animation: slide-bottom-2 2s ease-in-out forwards;

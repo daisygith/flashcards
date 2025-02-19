@@ -1,0 +1,29 @@
+<div class="html-container">
+  @if (!isStarted) {
+    <section class="elements">
+      <div class="html-title">
+        <p class="h3">{{ "HTML.TESTS_TITLE" | translate }}</p>
+      </div>
+      <div class="html-image">
+        <img src="assets/images/html.png" alt="html" />
+      </div>
+      <div class="html-button">
+        <button type="button" class="btn btn-info html-more" (click)="start()">
+          {{ "HTML.BUTTON" | translate }}
+        </button>
+      </div>
+    </section>
+  } @else {
+    <section class="elements">
+      <div class="test-title">cc</div>
+      <div class="test-view">
+        @for (element of questionTest; track element.id) {
+          <div>{{ element.question }}</div>
+          <div>{{ element.answerA }}</div>
+          <div>{{ element.answerB }}</div>
+          <div>{{ element.answerC }}</div>
+        }
+      </div>
+    </section>
+  }
+</div>

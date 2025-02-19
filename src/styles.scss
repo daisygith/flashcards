@@ -83,6 +83,25 @@ li {
   background-color: var(--second-color-backround) !important;
 }
 
+.card-test-resize {
+  background-color: var(--main-color-text) !important;
+  color: var(--second-color-backround) !important;
+}
+.card-test-resize:hover {
+  background-color: var(--second-color-backround) !important;
+  color: var(--main-color-text) !important;
+  border-color: transparent !important;
+}
+.card-body-test {
+  margin: 0;
+  & > span {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+}
+
 .slide-bottom {
   animation: slide-bottom 1s ease-in-out forwards;
 }
@@ -94,5 +113,44 @@ li {
   100% {
     transform: translateY(0);
     opacity: 1;
+  }
+}
+
+//questions /tests
+.html-container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1440px;
+  flex-direction: column;
+  .elements {
+    text-align: center;
+
+    .html-button {
+      margin: 0 0 50px 0px;
+
+      .html-more {
+        background-color: var(--main-color-text) !important;
+        border-color: var(--main-color-text) !important;
+        color: var(--main-color-background);
+      }
+
+      .html-more:hover {
+        background-color: var(--color-html) !important;
+        border-color: var(--color-html) !important;
+        color: var(--main-color-text);
+      }
+    }
+
+    .box-bottom.html-info {
+      padding: 20px;
+    }
+
+    .html-info > div {
+      display: flex;
+      justify-content: center;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      gap: 12px;
+    }
   }
 }

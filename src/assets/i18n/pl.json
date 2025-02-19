@@ -3,9 +3,10 @@
     "HELP": "Kliknij i sprawdź odpowiedź"
   },
   "HTML": {
-    "TITLE": "Rozpocznij naukę pytań HTML.",
     "BUTTON": "Start",
-    "FLASHCARDS": "Fiszek"
+    "FLASHCARDS": "Fiszek",
+    "TITLE": "Rozpocznij naukę pytań HTML.",
+    "TESTS_TITLE": "Sprawdź swoją wiedzę z.."
   },
   "MAIN_PAGE": {
     "BUTTON": {

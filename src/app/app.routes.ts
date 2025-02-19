@@ -24,7 +24,9 @@ export const routes: Routes = [
       {
         path: 'tests',
         loadChildren: () =>
-          import('./tests/tests.routes').then((m) => m.testsRoutes),
+          import('./question-tests/question-tests.routes').then(
+            (m) => m.questionTestsRoutes,
+          ),
       },
     ],
   },
