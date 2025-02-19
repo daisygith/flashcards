@@ -5,8 +5,32 @@
 }
 
 .test-view {
-  background-color: var(--color-background-flashcard);
+  background-color: var(--second-color-backround);
   color: var(--main-color-text);
-  height: 100px;
-  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 14px;
+  border: 1px solid var(--main-color-text);
+  .question-form {
+    .question-id {
+      text-align: left;
+      .question-id-title {
+        margin: 10px 200px;
+        font-weight: bold;
+      }
+      .answer-title {
+        margin: 10px 200px;
+      }
+      .answer {
+        display: flex;
+        gap: 14px;
+        .non-click {
+          pointer-events: none;
+        }
+      }
+    }
+  }
 }
