@@ -7,7 +7,7 @@
   {
     "id": 2,
     "question": "Co to jest DBMS?",
-    "answer": "DBMS oznacza Database Management System (System Zarządzania Bazą Danych). DBMS to oprogramowanie systemowe odpowiedzialne za tworzenie, pobieranie, aktualizację i\nzarządzanie bazą danych. Zapewnia, że nasze dane są spójne, zorganizowane i łatwo dostępne, służąc jako interfejs międzyn bazą danych a jej użytkownikami końcowymi lub oprogramowaniem aplikacji."
+    "answer": "DBMS oznacza Database Management System (System Zarządzania Bazą Danych). DBMS to oprogramowanie systemowe odpowiedzialne za tworzenie, pobieranie, aktualizację i<br />nzarządzanie bazą danych. Zapewnia, że nasze dane są spójne, zorganizowane i łatwo dostępne, służąc jako interfejs międzyn bazą danych a jej użytkownikami końcowymi lub oprogramowaniem aplikacji."
   },
   {
     "id": 3,
@@ -37,22 +37,22 @@
   {
     "id": 8,
     "question": "Czym są ograniczenia w SQL?",
-    "answer": "Ograniczenia służą do określania reguł dotyczących danych w tabeli. Mogą być stosowane do pojedynczych lub wielu pól w tabeli SQL podczas tworzenia tabeli lub po utworzeniu za pomocą polecenia ALTER TABLE. Ograniczenia są następujące:\n• NOT NULL — Ogranicza wstawianie wartości NULL do kolumny.\n• CHECK — Sprawdza, czy wszystkie wartości w polu spełniają warunek.\n• DEFAULT — Automatycznie przypisuje wartość domyślną, jeśli dla pola nie określono żadnej wartości.\n• UNIQUE — Zapewnia, że w polu zostaną wstawione unikalne wartości.\n• INDEX — Indeksuje pole, zapewniając szybsze wyszukiwanie rekordów.\n• PRIMARY KEY — Unikalnie identyfikuje każdy rekord w tabeli.\n• FOREIGN KEY — Zapewnia integralność referencyjną rekordu w innej tabeli."
+    "answer": "Ograniczenia służą do określania reguł dotyczących danych w tabeli. Mogą być stosowane do pojedynczych lub wielu pól w tabeli SQL podczas tworzenia tabeli lub po utworzeniu za pomocą polecenia ALTER TABLE. Ograniczenia są następujące:<br />n• NOT NULL — Ogranicza wstawianie wartości NULL do kolumny.<br />n• CHECK — Sprawdza, czy wszystkie wartości w polu spełniają warunek.<br />n• DEFAULT — Automatycznie przypisuje wartość domyślną, jeśli dla pola nie określono żadnej wartości.<br />n• UNIQUE — Zapewnia, że w polu zostaną wstawione unikalne wartości.<br />n• INDEX — Indeksuje pole, zapewniając szybsze wyszukiwanie rekordów.<br />n• PRIMARY KEY — Unikalnie identyfikuje każdy rekord w tabeli.<br />n• FOREIGN KEY — Zapewnia integralność referencyjną rekordu w innej tabeli."
   },
   {
     "id": 9,
     "question": "Czym jest Primary Key?",
-    "answer": "PRIMARY KEY jednoznacznie identyfikuje każdy wiersz w tabeli. Musi zawierać wartości UNIQUE i ma niejawne ograniczenie NOT NULL. Tabela w SQL jest ściśle ograniczona do posiadania jednego i tylko jednego klucza podstawowego, który składa się z pojedynczych lub wielu pól (kolumn). \nCREATE TABLE Students (\n   ID INT NOT NULL \n   Name VARCHAR(255) \n   PRIMARY KEY (ID) \n); "
+    "answer": "PRIMARY KEY jednoznacznie identyfikuje każdy wiersz w tabeli. Musi zawierać wartości UNIQUE i ma niejawne ograniczenie NOT NULL. Tabela w SQL jest ściśle ograniczona do posiadania jednego i tylko jednego klucza podstawowego, który składa się z pojedynczych lub wielu pól (kolumn). <br />nCREATE TABLE Students (<br />n   ID INT NOT NULL <br />n   Name VARCHAR(255) <br />n   PRIMARY KEY (ID) <br />n); "
   },
   {
     "id": 10,
     "question": "Czym jest UNIQUE?",
-    "answer": "UNIQUE zapewnia, że wszystkie wartości w kolumnie są różne. Zapewnia to unikalność kolumn i pomaga w unikatowej identyfikacji każdego wiersza. W przeciwieństwie do klucza podstawowego, dla każdej tabeli można zdefiniować wiele ograniczeń unikalności. Składnia kodu dla UNIQUE jest bardzo podobna do składni PRIMARY KEY i może być stosowana zamiennie. \nCREATE TABLE Students (   \n   ID INT NOT NULL UNIQUE \n   Name VARCHAR(255) \n); "
+    "answer": "UNIQUE zapewnia, że wszystkie wartości w kolumnie są różne. Zapewnia to unikalność kolumn i pomaga w unikatowej identyfikacji każdego wiersza. W przeciwieństwie do klucza podstawowego, dla każdej tabeli można zdefiniować wiele ograniczeń unikalności. Składnia kodu dla UNIQUE jest bardzo podobna do składni PRIMARY KEY i może być stosowana zamiennie. <br />nCREATE TABLE Students (   <br />n   ID INT NOT NULL UNIQUE <br />n   Name VARCHAR(255) <br />n); "
   },
   {
     "id": 11,
     "question": "Czym jest Foreign Key?",
-    "answer": "Foreign Key składa się z pojedynczego pola lub zbioru pól w tabeli, które zasadniczo odnoszą się do Primary Key w innej tabeli. Ograniczenie klucza obcego zapewnia integralność referencyjną w relacji między dwiema tabelami. Tabela z ograniczeniem klucza obcego jest oznaczona jako tabela podrzędna, a tabela zawierająca klucz kandydujący jest oznaczona jako tabela odwoławcza lub nadrzędna. \nCREATE TABLE Students (   \n   ID INT NOT NULL \n   Name VARCHAR(255) \n   LibraryID INT \n   PRIMARY KEY (ID) \n   FOREIGN KEY (Library_ID) REFERENCES Library(LibraryID) \n);  "
+    "answer": "Foreign Key składa się z pojedynczego pola lub zbioru pól w tabeli, które zasadniczo odnoszą się do Primary Key w innej tabeli. Ograniczenie klucza obcego zapewnia integralność referencyjną w relacji między dwiema tabelami. Tabela z ograniczeniem klucza obcego jest oznaczona jako tabela podrzędna, a tabela zawierająca klucz kandydujący jest oznaczona jako tabela odwoławcza lub nadrzędna. <br />nCREATE TABLE Students (   <br />n   ID INT NOT NULL <br />n   Name VARCHAR(255) <br />n   LibraryID INT <br />n   PRIMARY KEY (ID) <br />n   FOREIGN KEY (Library_ID) REFERENCES Library(LibraryID) <br />n);  "
   },
   {
     "id": 12,
@@ -62,7 +62,7 @@
   {
     "id": 13,
     "question": "Wymień różne typy Join.",
-    "answer": "• (INNER) JOIN: Pobiera rekordy, które mają pasujące wartości w obu tabelach biorących udział w połączeniu. Jest to powszechnie używane połączenie w zapytaniach. \n• LEFT (OUTER) JOIN: Pobiera wszystkie rekordy/wiersze z lewej tabeli i dopasowane rekordy/wiersze z prawej tabeli.\n• RIGHT (OUTER) JOIN: Pobiera wszystkie rekordy/wiersze z prawej tabeli i dopasowane rekordy/wiersze z lewej tabeli.\n• FULL (OUTER) JOIN: Pobiera wszystkie rekordy, dla których znaleziono dopasowanie w tabeli lewej lub prawej."
+    "answer": "• (INNER) JOIN: Pobiera rekordy, które mają pasujące wartości w obu tabelach biorących udział w połączeniu. Jest to powszechnie używane połączenie w zapytaniach. <br />n• LEFT (OUTER) JOIN: Pobiera wszystkie rekordy/wiersze z lewej tabeli i dopasowane rekordy/wiersze z prawej tabeli.<br />n• RIGHT (OUTER) JOIN: Pobiera wszystkie rekordy/wiersze z prawej tabeli i dopasowane rekordy/wiersze z lewej tabeli.<br />n• FULL (OUTER) JOIN: Pobiera wszystkie rekordy, dla których znaleziono dopasowanie w tabeli lewej lub prawej."
   },
   {
     "id": 14,
@@ -77,11 +77,66 @@
   {
     "id": 16,
     "question": "Czym jest Index?",
-    "answer": "Indeks bazy danych to struktura danych, która umożliwia szybkie wyszukiwanie danych w kolumnie lub kolumnach tabeli. Zwiększa szybkość operacji uzyskiwania dostępu do danych z tabeli bazy danych, kosztem dodatkowych zapisów i pamięci w celu, zachowania struktury danych indeksu.\nCREATE INDEX index_name   /* Create Index */ \nON table_name (column_1, column_2); \nDROP INDEX index_name;   /* Drop Index */  \nW index wyróżniamy następujące typy: \n • Unique and Non-Unique Index\n • Clustered and Non-Clustered Index"
+    "answer": "Indeks bazy danych to struktura danych, która umożliwia szybkie wyszukiwanie danych w kolumnie lub kolumnach tabeli. Zwiększa szybkość operacji uzyskiwania dostępu do danych z tabeli bazy danych, kosztem dodatkowych zapisów i pamięci w celu, zachowania struktury danych indeksu.<br />nCREATE INDEX index_name   /* Create Index */ <br />nON table_name (column_1, column_2); <br />nDROP INDEX index_name;   /* Drop Index */  <br />nW index wyróżniamy następujące typy: <br />n • Unique and Non-Unique Index<br />n • Clustered and Non-Clustered Index"
+  },
+  {
+    "id": 17,
+    "question": "Jakie są różnice między unikalnym(unique) i nieunikalnym(non-unique) indeksem?",
+    "answer": "Unique Indexes - Indeksy unikalne to indeksy, które pomagają zachować integralność danych zapewniając, że żadne dwa wiersze danych w tabeli nie mają identycznych wartości kluczy. Po zdefiniowaniu indeksu unikalnego dla tabeli, unikalność jest wymuszana za każdym razem, gdy klucze są dodawane lub zmieniane w indeksie.<br />n Non-unique indexes - indeksy nieunikalne są używane wyłącznie w celu poprawy wydajności zapytania poprzez utrzymanie posortowanej kolejności według często używanych wartości danych."
   },
   {
     "id": 18,
     "question": "Jakie są różnice między Clustered i Non-Clustered Index?",
-    "answer": "Unique Indexes - Indeksy unikalne to indeksy, które pomagają zachować integralność danych zapewniając, że żadne dwa wiersze danych w tabeli nie mają identycznych wartości kluczy. Po zdefiniowaniu indeksu unikalnego dla tabeli, unikalność jest wymuszana za każdym razem, gdy klucze są dodawane lub zmieniane w indeksie.\n Non-unique indexes - indeksy nieunikalne są używane wyłącznie w celu poprawy wydajności zapytania poprzez utrzymanie posortowanej kolejności według często używanych wartości danych."
+    "answer": "<b>Indeksy klastrowane</b> (clustered indexes) - to indeksy których kolejnosć wierszy w bazie danych odpowiada kolejności wierszy w indeksie. W danej tabeli może istnieć tylko jeden indeks klastrowany. Używany do łatwego i szybkiego pobierania danych z bazy danych.<br /><b>Indeks nieklastrowany</b> przechowuje kopię wartości indeksu oraz wskaźniki do rzeczywistych danych(tworzy oddzielną jednostkę w tabeli, która odwołuje się do orginalnej tabeli). W przeciwieństwie do indeksu klastrowanego, może być wiele indeksów nieklastrowanych w jednej tabeli. Pobieranie danych z bazy danych jest stosunkowo wolniejsze."
+  },
+  {
+    "id": 19,
+    "question": "Czym jest integralność danych?",
+    "answer": "<b>Integralność danych</b> to zapewnienie dokładności i spójności danych w całym cyklu ich życia. Krytyczny aspekt projektowania, implementacji i użytkowania dowolnego systemu, który przechowuje, przetwarza lub pobiera dane. Definiuje ograniczenia integralności w celu egzekwowania reguł biznesowych dotyczących danych, gdy są one wprowadzane do aplikacji lub bazy danych."
+  },
+  {
+    "id": 20,
+    "question": "Czym jest zapytanie(query)?",
+    "answer": "<b>Zapytanie</b>(query) - żądanie danych lub informacji z tabeli bazy danych lub kombinacji tabel. Zapytanie bazy danych może być zapytaniem SELECT lub zapytaniem akcji (zaptania akcji wprowadzają zmiany w wielu rekorach jednocześnie). "
+  },
+  {
+    "id": 21,
+    "question": "Czym jest podzapytanie(subquery)?",
+    "answer": "<b>Podzapytanie</b>(subquery) - zapytanie w innym zapytaniu(zagnieżdzone zapytania lub wewnętrzne zapytanie). Służy do ograniczania lub rozszerzania danych, które mają być odpytywane przez zapytanie główne, odpowiednio ograniczając lub rozszeżając w ten sposób wynik zapytania głównego.<br />W tym przykłądzie pobieramy dane kontaktowe uczniów, którzy zapisali się na przedmiot matematyka: <br />SELECT name, email, mob, address <br />FROM myDb.contacts <br />WHERE roll_no IN ( <br /> SELECT roll_no <br /> FROM myDb.students <br /> WHERE subject = 'Maths');"
+  },
+  {
+    "id": 22,
+    "question": "Jakie są rodzaje podzapytań(subquery)?",
+    "answer": "Są 2 typy podzapytań - skorelowane (correlated) i nieskorelowane (non-correlated).<br /><b>Podzapytanie skorelowanie</b> nie jest to zapytanie niezależne, ale może ono odwoływać się do kolumny w tabeli wymienionej w polu FROM głównego zapytania.<br /><b>Podzapytanie nieskorelowane</b> można traktować jako niezależne zapytanie, a wynik podzapytania jest podstawiany do zapytania głównego."
+  },
+  {
+    "id": 23,
+    "question": "Czym jest polecenie SELECT?",
+    "answer": "Operator SELECT w SQL służy do wybierania danych z bazy danych. Zwrócone dane są przechowywane w tabeli wyników, zwanej zestawem wyników.<br /><b>SELECT</b> * <b>FROM</b> myDB.students;"
+  },
+  {
+    "id": 24,
+    "question": "Do czego służą klauzuly WHERE i ORDER BY?",
+    "answer": "Klauzula <b>WHERE</b> służy do filtrowania rekordów na podstawie określonych warunków (nie może filtrować zebranych elementów).<br />Klauzula <b>ORDER BY</b> służy do sortowania rekordów na podstawie pewnych pól w kolejności rosnącej (ASC) lub malejącej (DESC).<br />SELECT * FROM myDB.students <br />WHERE graduation_year = 2019 <br />ORDER BY studentID DESC;"
+  },
+  {
+    "id": 25,
+    "question": "Do czego służą klauzuly GROUP BY i HAVING?",
+    "answer": "Klauzula <b>GROUP BY</b> służy do grupowania rekordów zawierających identyczne dane. <br /><b>HAVING</b> jest używana do filtrowania rekordów w połączeniu z <b>GROUP BY</b>.<br />SELECT COUNT(studentId), country <br />FROM myDB.students <br />WHERE country != \"INDIA\" <br />GROUP BY country <br />HAVING COUNT(studentID) > 5;"
+  },
+  {
+    "id": 26,
+    "question": "Jakie są najczęstsze klauzule używane w zapytaniu SELECT w SQL?",
+    "answer": "<b>WHERE</b><br /><b>ORDER BY</b><br /><b>GROUP BY</b><br /><b>HAVING</b>"
+  },
+  {
+    "id": 27,
+    "question": "Czym jest polecenie UNION?",
+    "answer": "Operator <b>UNION</b> łączy i zwraca zestaw wyników pobranych za pomocą dwóch lub więcej instrukcji SELECT (domyślnie wybiera tylko różne wartosci).<br />SELECT column_name(s) FROM table1<br /><b>UNION</b><br />SELECT column_name(s) FROM table2;<br /><b>UNION ALL</b> pozwala na pobranie zduplikowanych wierszy <br />SELECT column_name(s) FROM table1<br /><b>UNION ALL</b><br />SELECT column_name(s) FROM table2;"
+  },
+  {
+    "id": 28,
+    "question": "Czym jest polecenie MINUS?",
+    "answer": "<b>MINUS</b> wybiera z pierwszego zestawu dane, których nie ma w drugim zestawie wybieranym klauzulą SELECT.<br />SELECT name FROM table1<br /><b>MINUS</b><br />SELECT name FROM table2;"
   }
 ]
