@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Która z poniższych odpowiedzi określa główne sekcje HTML?",
+    "answerA": "<html>, <head> i <body>.",
+    "answerB": "<body>, <nav> i <div>.",
+    "answerC": "<section>, <footer> i <p>."
+  },
+  {
+    "id": 2,
+    "question": "Co oznacza nagłowek <head>?",
+    "answerA": "zmienną",
+    "answerB": "język skryptowy",
+    "answerC": "nagłówek"
+  },
+  {
+    "id": 3,
+    "question": "Jakim znacznikiem opisałbyć ciało strony internetowej w HTML?",
+    "answerA": "<div>",
+    "answerB": "<body>",
+    "answerC": "<footer>"
+  },
+  {
+    "id": 4,
+    "question": "Jakim znacznikiem opisałbyć stopkę strony internetowej w HTML?",
+    "answerA": "<div>",
+    "answerB": "<body>",
+    "answerC": "<footer>"
+  },
+  {
+    "id": 5,
+    "question": "Do czego służy znacznik <a href=\" \">?",
+    "answerA": "Do dodania audio",
+    "answerB": "Do dodania obrazka",
+    "answerC": "Do dodania linku"
+  },
+  {
+    "id": 6,
+    "question": "Do czego służy znacznik <img src=\" \" alt=\" \">?",
+    "answerA": "Do dodania audio",
+    "answerB": "Do dodania obrazka",
+    "answerC": "Do dodania linku"
+  },
+  {
+    "id": 7,
+    "question": "Do czego służy SRC w znaczniku <img src=\" \" alt=\" \">?",
+    "answerA": "Do dodania ścieżki obrazka",
+    "answerB": "Do do dodania opisu obrazka",
+    "answerC": "Jest niepotrzebny"
+  },
+  {
+    "id": 8,
+    "question": "Do czego służy ALT w znaczniku <img src=\" \" alt=\" \">?",
+    "answerA": "Do dodania ścieżki obrazka",
+    "answerB": "Do do dodania opisu obrazka",
+    "answerC": "Jest niepotrzebny"
+  }
+]

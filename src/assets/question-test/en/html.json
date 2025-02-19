@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following answers defines the main sections of HTML?",
+    "answerA": "<html>, <head> and <body>.",
+    "answerB": "<body>, <nav> and <div>.",
+    "answerC": "<section>, <footer> and <p>."
+  },
+  {
+    "id": 2,
+    "question": "What does mean heading <head>",
+    "answerA": "variable",
+    "answerB": "script language",
+    "answerC": "heading"
+  },
+  {
+    "id": 3,
+    "question": "What tag should be used to describe the body of a web page in HTML?",
+    "answerA": "<div>",
+    "answerB": "<body>",
+    "answerC": "<footer>"
+  },
+  {
+    "id": 4,
+    "question": "What tag would be used to describe the footer of a website in HTML?",
+    "answerA": "<div>",
+    "answerB": "<body>",
+    "answerC": "<footer>"
+  },
+  {
+    "id": 5,
+    "question": "What is the <a href=\" \"> tag used for?",
+    "answerA": "For add audio",
+    "answerB": "For add image",
+    "answerC": "for add link"
+  },
+  {
+    "id": 6,
+    "question": "What is the <img src=\" \" alt=\" \"> tag used for?",
+    "answerA": "For add audio",
+    "answerB": "For add image",
+    "answerC": "for add link"
+  },
+  {
+    "id": 7,
+    "question": "What does SRC do in the <img src=\" \" alt=\" \"> tag?",
+    "answerA": "For add image path",
+    "answerB": "To add a description for the image",
+    "answerC": "It's not needed"
+  },
+  {
+    "id": 8,
+    "question": "What does ALT do in the <img src=\" \" alt=\" \"> tag?",
+    "answerA": "For add image path",
+    "answerB": "To add a description for the image",
+    "answerC": "It's not needed"
+  }
+]
