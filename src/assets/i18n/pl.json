@@ -6,7 +6,8 @@
     "BUTTON": "Start",
     "FLASHCARDS": "Fiszek",
     "TITLE": "Rozpocznij naukę pytań HTML.",
-    "TESTS_TITLE": "Sprawdź swoją wiedzę z.."
+    "TESTS_TITLE": "Sprawdź swoją wiedzę z HTML.",
+    "SUBTITLE": "W teście znajduje się 20 losowo wybranych pytań. Poprawne odpowiedzi wyświetlą się po zatwierdzeniu testu. \nPowodzenia!"
   },
   "MAIN_PAGE": {
     "BUTTON": {
@@ -15,7 +16,7 @@
     "FLASHCARDS_TITLE": "Sprawdź pytania...",
     "SUBTITLE": "Ta strona internetowa została stworzona, aby pomóc Ci lepiej przygotować się do rozmowy kwalifikacyjnej, testu lub po prostu sprawdzić swoją wiedzę z...",
     "TITLE": "/* Przygotuj się do rozmowy kwalifikacyjnej */",
-    "TESTS_TITLE": "Sprawdź swoją wiedzę"
+    "TESTS_TITLE": "Sprawdź swoją wiedzę.."
   },
   "NAVBAR": {
     "ABOUT": "O mnie",

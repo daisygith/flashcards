@@ -6,7 +6,8 @@
     "BUTTON": "Start",
     "FLASHCARDS": "Flashcards",
     "TITLE": "Start learning HTML questions.",
-    "TESTS_TITLE": "Test your knowledge from.."
+    "TESTS_TITLE": "Test your knowledge from HTML.",
+    "SUBTITLE": "There are 20 randomly selected questions in the test. Correct answers will be displayed after the test is approved. \nGood luck!"
   },
   "MAIN_PAGE": {
     "BUTTON": {
