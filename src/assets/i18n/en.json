@@ -3,9 +3,10 @@
     "HELP": "Press and check the answer"
   },
   "HTML": {
-    "TITLE": "Start learning HTML questions.",
     "BUTTON": "Start",
-    "FLASHCARDS": "Flashcards"
+    "FLASHCARDS": "Flashcards",
+    "TITLE": "Start learning HTML questions.",
+    "TESTS_TITLE": "Test your knowledge from.."
   },
   "MAIN_PAGE": {
     "BUTTON": {
