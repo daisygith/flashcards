@@ -1,0 +1,18 @@
+.progress-bar-flashcards {
+  margin: 0 100px;
+}
+@media (max-width: 800px) {
+  .progress-bar-flashcards {
+    margin: 0 60px;
+  }
+}
+@media (max-width: 768px) {
+  .progress-bar-flashcards {
+    margin: 0 40px;
+  }
+}
+@media (max-width: 480px) {
+  .progress-bar-flashcards {
+    margin: 0 20px;
+  }
+}
