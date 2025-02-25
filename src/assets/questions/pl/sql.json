@@ -42,7 +42,7 @@
   {
     "id": 9,
     "question": "Czym jest Primary Key?",
-    "answer": "PRIMARY KEY jednoznacznie identyfikuje każdy wiersz w tabeli. Musi zawierać wartości UNIQUE i ma niejawne ograniczenie NOT NULL. Tabela w SQL jest ściśle ograniczona do posiadania jednego i tylko jednego klucza podstawowego, który składa się z pojedynczych lub wielu pól (kolumn). <br />nCREATE TABLE Students (<br />n   ID INT NOT NULL <br />n   Name VARCHAR(255) <br />n   PRIMARY KEY (ID) <br />n); "
+    "answer": "PRIMARY KEY (klucz główny) - jednoznacznie identyfikuje każdy wiersz w tabeli. Musi zawierać wartości UNIQUE i ma niejawne ograniczenie NOT NULL. Tabela w SQL jest ściśle ograniczona do posiadania jednego i tylko jednego klucza głownego, który składa się z pojedynczych lub wielu pól (kolumn). <br />nCREATE TABLE Students (<br />n   ID INT NOT NULL <br />n   Name VARCHAR(255) <br />n   PRIMARY KEY (ID) <br />n); "
   },
   {
     "id": 10,
@@ -138,5 +138,125 @@
     "id": 28,
     "question": "Czym jest polecenie MINUS?",
     "answer": "<b>MINUS</b> wybiera z pierwszego zestawu dane, których nie ma w drugim zestawie wybieranym klauzulą SELECT.<br />SELECT name FROM table1<br /><b>MINUS</b><br />SELECT name FROM table2;"
+  },
+  {
+    "id": 29,
+    "question": "Czym jest polecenie INTERSECT?",
+    "answer": "<b>INTERSECT</b> łączy zestaw wyników pobrany przez dwa polecenia SELECT, w których rekordy z jednego pasują do drugiego, a następnie zwraca część wspólną zestawów wyników. <br />SELECT name FROM table1<br /><b>INTERSECT</b><br />SELECT name FROM table2;"
+  },
+  {
+    "id": 30,
+    "question": "Jakie warunki muszą zostać spełnione jeżli chcemy wykonać któreś z poleceń UNION, MINUS lub INTERSECT?",
+    "answer": "Przed wykonaniem któregokolwiek z powyższych poleceń muszą zostać spełnione pewne warunki:<br />• Każde polecenie SELECT w klauzuli musi mieć taką samą liczbę kolumn<br />• Kolumny muszą mieć również podobne typy danych<br />• Kolumny w każdym poleceniu SELECT muszą mieć koniecznie taką samą kolejność"
+  },
+  {
+    "id": 31,
+    "question": "Co to jest Kursor?",
+    "answer": "<b>KURSOR</b> jest strukturą umożliwiającą przetwarzanie wielu wierszy zwracanych w określonej kolejności przez zapytanie na zasadzie „wiersz po wierszu”."
+  },
+  {
+    "id": 32,
+    "question": "Jak użyć Kursor?",
+    "answer": "1. <b>Zadeklaruj</b> kursor po deklaracji dowolnej zmiennej. Deklaracja kursora musi być zawsze powiązana z instrukcją <b>SELECT</b>. <br />2. Otwórz kursor, aby zainicjować zestaw wyników. Instrukcja <b>OPEN</b> musi zostać wywołana przed pobraniem wierszy z zestawu wyników.<br />3. Dodaj <b>FETCH</b>, aby pobierać i przechodzić do następnych wierszy w zestawie wyników. <br />4. Wywołaj instrukcję <b>CLOSE</b>, aby dezaktywować kursor. <br />5. Na koniec użyj instrukcji <b>DEALLOCATE</b>, aby usunąć definicję kursora i zwolnić powiązane zasoby. <br /><b>DECLARE</b> @name VARCHAR(50) /* Declare All Required Variables */ <br /><b>DECLARE</b> db_cursor <b>CURSOR FOR</b> /* Declare Cursor Name*/ <br /><b>SELECT</b> name <b>FROM</b> myDB.students <br /><b>WHERE</b> parent_name <b>IN</b> ('name1', 'name2') <br /><b>OPEN</b> db_cursor /* Open cursor and Fetch data into @name */ <br /><b>FETCH</b> next <br /><b>FROM</b> db_cursor <br /><b>INTO</b> @name <br /><b>CLOSE</b> db_cursor /* Close the cursor and deallocate the resources */ <br /><b>DEALLOCATE</b> db_cursor  "
+  },
+  {
+    "id": 33,
+    "question": "Co to jest Entity?",
+    "answer": "<b>Entity</b> - (jednostka) może być obiektem ze świata rzeczywistego, materialnym lub niematerialnym, który można łatwo zidentyfikować. Na przykład w bazie danych uczelni studenci, profesorowie, pracownicy, wydziały i projekty mogą być określani jako jednostki. Każda jednostka ma pewne powiązane właściwości, które nadają jej tożsamość."
+  },
+  {
+    "id": 34,
+    "question": "Co to są relacje?",
+    "answer": "<b>Relacje</b> - Relacje lub powiązania między jednostkami, które mają coś wspólnego ze sobą. Na przykład - tabela pracowników w bazie danych firmy może być skojarzona z tabelą wynagrodzeń w tej samej bazie danych."
+  },
+  {
+    "id": 35,
+    "question": "Wymień różne typy relacji w SQL.",
+    "answer": "<b>- Jeden-do-jednego</b> (One-to-One)<br /><b>- Jeden-do-wielu & Wiele-do-jednego</b> (One-to-Many & Many-to-One)<br /><b>- Wiele-do-wielu</b> (Many-to-Many)<br /><b>- Relacje odwołujące się do siebie</b> (Self-Referencing Relationships)<br />"
+  },
+  {
+    "id": 36,
+    "question": "Czym jest relacja Jeden-do-jednego (One-to-One)?",
+    "answer": "<b>Jeden do jednego</b> - jest to relacja między dwiema tabelami, w której każdy rekord w jednej tabeli jest powiązany z <b>maksymalnie jednym</b> rekordem w drugiej tabeli."
+  },
+  {
+    "id": 37,
+    "question": "Czym jest relacja Jeden-do-wielu & Wiele-do-jednego (One-to-Many & Many-to-One)?",
+    "answer": "<b>Jeden-do-wielu & Wiele-do-jednego</b> (One-to-Many & Many-to-One) – jest to relacja, w której rekord w tabeli jest powiązany z wieloma rekordami w innej tabeli."
+  },
+  {
+    "id": 38,
+    "question": "Czym jest relacja Wiele-do-wielu (Many-to-Many)?",
+    "answer": "<b>Wiele-do-wielu</b> (Many-to-Many) – używane w przypadkach, gdy do zdefiniowania relacji wymagane są liczne wystąpienia po obu stronach ~ wiele rekordów w jednej tabeli jest powiązanych z wieloma rekordami w drugiej tabeli."
+  },
+  {
+    "id": 39,
+    "question": "Czym jest relacja  odwołuja się do siebie (Self-Referencing Relationships)?",
+    "answer": "<b>Relacje odwołujące się do siebie</b> (Self-Referencing Relationships) – używane, gdy tabela musi zdefiniować relację z samą sobą ~ rekord w tabeli odwołuje się do innego rekordu w tej samej tabeli (np. encja, taka jak pracownik, musi być powiązana z inną jednostką tego samego typu – innym pracownikiem, który pełni funkcję jego przełożonego)."
+  },
+  {
+    "id": 40,
+    "question": "Czym jest Alias?",
+    "answer": "Jest to tymczasowa nazwa przypisana do tabeli lub kolumny tabeli na potrzeby konkretnego zapytania SQL. Ponadto alias może być stosowany jako technika maskowania w celu zabezpieczenia prawdziwych nazw pól bazy danych. Alias tabeli jest również nazywany nazwą korelacji. <br /><b>SELECT</b> A.emp_name <b>AS</b> \"Employee\"  /* Alias using AS keyword */ <br />B.emp_name <b>AS</b> \"Supervisor\" <b>FROM</b> employee A, employee B   /* Alias without AS keyword */ <br /><b>WHERE</b> A.emp_sup = B.emp_id; "
+  },
+  {
+    "id": 41,
+    "question": "Czym jest widok(view)?",
+    "answer": "Widok w SQL to wirtualna tabela oparta na zestawie wyników instrukcji SQL. Widok zawiera wiersze i kolumny, tak jak prawdziwa tabela. Pola w widoku to pola z jednej lub więcej rzeczywistych tabel w bazie danych."
+  },
+  {
+    "id": 42,
+    "question": "Czym jest Normalizacja?",
+    "answer": "Normalizacja to sposób wydajnej organizacji ustrukturyzowanych danych w bazie danych. Obejmuje ona tworzenie tabel, ustanawianie relacji między nimi i definiowanie reguł dla tych relacji. <br />Podstawowym założeniem Normalizacji jest usunięcie nadmiarowości. Dokonuje się tego dzięki podziałowi tabeli na małe partycje, które następnie łączy się za pomocą różnych relacji tak, aby uniknać szans na pojawienie się redundancji."
+  },
+  {
+    "id": 43,
+    "question": "Czym jest Denormalizacja?",
+    "answer": "<b>Denormalizacja</b> to odwrotny proces normalizacji, w którym znormalizowany schemat jest konwertowany na schemat, który ma nadmiarowe informacje. Denormalizacja dodaje wymagany nadmiarowy termin do tabeli dzięki czemu możemy uniknąć stosowania złożonych sprzężeń i wielu innych złożonych operacji."
+  },
+  {
+    "id": 44,
+    "question": "Jakie są różne formy normalizacji w relacyjnych bazach danych?",
+    "answer": "Najczęściej spotykane to: <br />- Pierwsza postać normalna (1NF)<br />- Druga postać normalna (2NF)<br />- Trzecia postać normalna (3NF) <br />Oprócz tego,można również trafić na postaci normalne takie jak: <br />- Postać normalna Boyce’a Codda<br />- Czwarta postać normalna (4NF)<br />- Piąta postać normalna (5NF)"
+  },
+  {
+    "id": 45,
+    "question": "Co to znaczy <b>pierwsza postać normalna</b> (1NF)?",
+    "answer": "Każdy atrybut w tej relacji jest jednowartościowy ~ każda komórka musi przechowywać jedną wartość. Jeśli relacja zawiera atrybut złożony lub wielowartościowy, narusza to regułę 1FN. <table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Product_name| </th>\n\t\t\t<th> Price</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Keyboard</td>\n\t\t\t<td>500</td>\n\t\t</tr>\n\t</tbody>\n</table>"
+  },
+  {
+    "id": 46,
+    "question": "Co to znaczy <b>druga postać normalna</b> (2NF)?",
+    "answer": "Relacja jest w drugiej postaci normalnej, jeśli spełnia warunki pierwszej postaci normalnej oraz każda kolumna w tabeli musi być zależna od klucza głownego."
+  },
+  {
+    "id": 47,
+    "question": "Co to znaczy <b>trzecia postać normalna</b> (3NF)?",
+    "answer": "3 Postać Normalna (3NF) to trzeci poziom normalizacji danych, który spełnia 2NF oraz zakłada, że niekluczowa kolumna nie może zależeć od innej niekluczowej kolumny (niekluczowa kolumna musi zależeć tylko od klucza głównego, a nie od innych niekluczowych kolumn)."
+  },
+  {
+    "id": 48,
+    "question": "Czym jest polecenie <b>TRUNCATE</b>?",
+    "answer": "Polecenie <b>TRUNCATE</b> służy do usuwania wszystkich wierszy z tabeli i zwalniania zajmowane przez tabele miejsca w przestrzeni tabel. <br /><br /><b>TRUNCATE TABLE</b> Candidates;"
+  },
+  {
+    "id": 49,
+    "question": "Czym jest polecenie <b>DELETE</b>?",
+    "answer": "Polecenie <b>DELETE</b> służy do usuwania  wierszy z tabeli (możemy wybrać wiersze do usunięcia). <br /><br /><b>DELETE FROM</b> Candidates <br/><b>WHERE</b>CandidateId > 1000; "
+  },
+  {
+    "id": 50,
+    "question": "Czym jest polecenie <b>DROP</b>?",
+    "answer": "Polecenie <b>DROP</b> służy do usuwania obiektu z bazy danych. Jeśli usuniesz tabelę, wszystkie wiersze w tabeli zostaną usunięte, a struktura tabeli zostanie usunięta z bazy danych.  <br /><br /><b>DROP TABLE</b> Candidates;"
+  },
+  {
+    "id": 51,
+    "question": "Jaka jest różnica pomiędzy poleceniami <b>DROP</b> i <b>TRUNCATE</b>?",
+    "answer": "Wykorzystanie <b>DROP</b> spowoduje, że wszystkie elementy powiązane z tabelami zostaną usunięte. Obejmuje to - relacje zdefiniowane w tabeli z innymi tabelami, kontrole integralności i ograniczenia, uprawnienia dostępu i inne uprawnienia, które ma tabela. Aby utworzyć i ponownie użyć tabeli w jej oryginalnej formie, wszystkie te relacje, kontrole, ograniczenia, uprawnienia i relacje muszą zostać zdefiniowane na nowo. <br />Przy wykorzystaniu <b>TRUNCATE</b>, żaden z powyższych problemów nie występuje( usuwa dane pozostawiając tabele), a tabela zachowuje swoją oryginalną strukturę."
+  },
+  {
+    "id": 52,
+    "question": "Jaka jest różnica pomiędzy poleceniami <b>DELETE</b> i <b>TRUNCATE</b>?",
+    "answer": "Wykorzystanie <b>DROP</b> spowoduje, że wszystkie elementy powiązane z tabelami zostaną usunięte. Obejmuje to - relacje zdefiniowane w tabeli z innymi tabelami, kontrole integralności i ograniczenia, uprawnienia dostępu i inne uprawnienia, które ma tabela. Aby utworzyć i ponownie użyć tabeli w jej oryginalnej formie, wszystkie te relacje, kontrole, ograniczenia, uprawnienia i relacje muszą zostać zdefiniowane na nowo. <br />Przy wykorzystaniu <b>TRUNCATE</b>, żaden z powyższych problemów nie występuje( usuwa dane pozostawiając tabele), a tabela zachowuje swoją oryginalną strukturę."
   }
 ]
