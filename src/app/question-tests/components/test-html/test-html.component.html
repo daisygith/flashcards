@@ -25,63 +25,61 @@
           </p>
         </div>
       </div>
-      <div class="test-view">
+      <form class="test-view">
         @for (element of questionTest; track element.id) {
           <div class="question-form">
-            <form>
-              <div class="question-id">
-                <div class="question-id-title">
-                  <div>{{ element.question }}</div>
+            <div class="question-id">
+              <div class="question-id-title">
+                <div>{{ element.question }}</div>
+              </div>
+              <div class="answer-title">
+                <div class="form-check answer">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    [name]="element.id + '-radio'"
+                    [id]="element.id + '-radio-a'"
+                    value="A"
+                  />
+                  <label
+                    class="form-check-label non-click"
+                    [for]="element.id + '-radio-a'"
+                    >{{ element.answerA }}</label
+                  >
                 </div>
-                <div class="answer-title">
-                  <div class="form-check answer">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="radioDefault"
-                      id="exampleRadios1"
-                      value="answerA"
-                    />
-                    <label
-                      class="form-check-label non-click"
-                      for="exampleRadios1"
-                      >{{ element.answerA }}</label
-                    >
-                  </div>
-                  <div class="form-check answer">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="radioDefault"
-                      id="exampleRadios2"
-                      value="answerB"
-                    />
-                    <label
-                      class="form-check-label non-click"
-                      for="exampleRadios2"
-                      >{{ element.answerB }}</label
-                    >
-                  </div>
-                  <div class="form-check answer">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="radioDefault"
-                      id="exampleRadios3"
-                      value="answerC"
-                    />
-                    <label
-                      class="form-check-label non-click"
-                      for="exampleRadios3"
-                      >{{ element.answerC }}</label
-                    >
-                  </div>
+                <div class="form-check answer">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    [name]="element.id + '-radio'"
+                    [id]="element.id + '-radio-b'"
+                    value="B"
+                  />
+                  <label
+                    class="form-check-label non-click"
+                    [for]="element.id + '-radio-b'"
+                    >{{ element.answerB }}</label
+                  >
+                </div>
+                <div class="form-check answer">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    [name]="element.id + '-radio'"
+                    [id]="element.id + '-radio-c'"
+                    value="C"
+                  />
+                  <label
+                    class="form-check-label non-click"
+                    [for]="element.id + '-radio-c'"
+                    >{{ element.answerC }}</label
+                  >
                 </div>
               </div>
-            </form>
+            </div>
           </div>
         }
-      </div>
+      </form>
       <!-- Submit Button -->
       <button type="submit" class="btn btn-primary mt-3">Submit</button>
     </section>

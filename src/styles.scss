@@ -21,9 +21,14 @@ body {
   --main-color-background: #f2f2f2;
   --second-color-backround: #dddce3;
   --main-color-text: #000000;
+  --second-color-text: #ffffff;
   --color-html: #f16529;
   --color-background-flashcard: #ffffff;
+  --color-background-test: #ffffff;
   --color-additional-help: #7e72bc;
+  --progress-bar-color: #7e72bc;
+  --radio-border-color: #000000;
+  --language-border-color: #7e72bc;
 }
 
 section {
@@ -119,7 +124,7 @@ li {
 //questions /tests
 .html-container {
   display: flex;
-  margin: 0 auto;
+  margin: 30px auto 0 auto;
   max-width: 1440px;
   flex-direction: column;
   .elements {

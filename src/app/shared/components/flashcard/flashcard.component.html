@@ -8,7 +8,10 @@
     (click)="toggle()"
   >
     <div class="front title-question">
-      <span class="fs-4 formated-text">{{ questions?.question }} </span>
+      <span
+        class="fs-4 formated-text"
+        [innerHTML]="questions?.question | safeHtml"
+      ></span>
     </div>
     <div class="back title-question">
       <p class="formated-text" [innerHTML]="questions?.answer | safeHtml"></p>

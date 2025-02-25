@@ -4,19 +4,23 @@
       <a class="navbar-brand" href="#">CodeAnswer</a>
     </div>
     <div class="nav-right-links">
-      <div ngbDropdown class="d-inline-block">
+      <div ngbDropdown class="d-inline-block language">
         <button
           type="button"
-          class="btn btn-outline-primary"
+          class="btn btn-outline-primary language"
           id="dropdownBasic1"
           ngbDropdownToggle
         >
-          {{ translate.currentLang }}
+          {{ translate.currentLang.toUpperCase() }}
         </button>
         <div aria-labelledby="dropdownBasic1" ngbDropdownMenu>
           @for (lang of languages; let idx = $index; track idx) {
-            <button ngbDropdownItem (click)="translate.use(lang)">
-              {{ lang }}
+            <button
+              ngbDropdownItem
+              (click)="translate.use(lang)"
+              class="language-active"
+            >
+              {{ lang.toUpperCase() }}
             </button>
           }
         </div>

@@ -6,6 +6,9 @@ app-main-page {
     margin: 0 auto;
     max-width: 1440px;
     flex-direction: column;
+    .section.main {
+      margin-top: 90px;
+    }
   }
 
   .container.top {
@@ -90,8 +93,11 @@ app-main-page {
   //
   //@media (max-width: 1200px) {
   //}
-  //@media (max-width: 1024px) {
-  //}
+  @media (max-width: 1024px) {
+    .question-cart {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
   @media (max-width: 800px) {
     .container.top {
       grid-template-columns: auto;
@@ -100,22 +106,19 @@ app-main-page {
     .container-right {
       margin-top: 30px;
     }
-    .question-cart {
-      grid-template-columns: 1fr 1fr;
-    }
   }
   @media (max-width: 768px) {
     .container-left {
       font-size: 40px;
     }
-  }
-  @media (max-width: 480px) {
-    section {
-      margin: 50px 0 0 0;
-      height: auto;
-    }
     .question-cart {
       grid-template-columns: 1fr;
+    }
+  }
+  @media (max-width: 480px) {
+    .section.test {
+      margin: 50px 0 50px 0;
+      height: auto;
     }
     .card-body {
       text-align: center;

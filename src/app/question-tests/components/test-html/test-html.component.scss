@@ -5,32 +5,34 @@
 }
 
 .test-view {
-  background-color: var(--second-color-backround);
+  background-color: var(--color-background-test);
   color: var(--main-color-text);
   height: auto;
   display: flex;
   flex-direction: column;
   width: 80%;
+  max-width: 800px;
   margin: 0 auto;
   border-radius: 14px;
-  border: 1px solid var(--main-color-text);
+  //border: 1px solid var(--main-color-text);
   .question-form {
     .question-id {
       text-align: left;
       .question-id-title {
-        margin: 10px 200px;
+        margin: 24px;
         font-weight: bold;
       }
       .answer-title {
-        margin: 10px 200px;
+        margin: 24px;
       }
       .answer {
         display: flex;
         gap: 14px;
-        .non-click {
-          pointer-events: none;
-        }
       }
     }
   }
+}
+
+.form-check-input {
+  --bs-border-color: var(--radio-border-color);
 }
