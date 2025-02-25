@@ -25,8 +25,9 @@
   } @else {
     <section class="elements">
       <ngb-carousel
+        #carousel
         [showNavigationIndicators]="false"
-        class="carousel carousel-dark slide"
+        class="carousel carousel-dark slide box-carousel"
       >
         @for (element of questions; track element.id) {
           <ng-template ngbSlide>
@@ -34,6 +35,11 @@
           </ng-template>
         }
       </ngb-carousel>
+      <app-progressbar
+        class="mb-3"
+        [max]="questions?.length!"
+        [current]="carousel.activeId | carouselCurrent"
+      ></app-progressbar>
     </section>
   }
 </div>

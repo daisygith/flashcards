@@ -4,6 +4,7 @@ import { JsonPipe } from '@angular/common';
 import {
   NgbCarousel,
   NgbCarouselConfig,
+  NgbProgressbar,
   NgbSlide,
 } from '@ng-bootstrap/ng-bootstrap';
 import { FlashcardComponent } from '../../../shared/components/flashcard/flashcard.component';
@@ -11,11 +12,20 @@ import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { QuestionsService } from '../../services/questions.service';
 import { distinctUntilChanged, switchMap } from 'rxjs';
+import { ProgressbarComponent } from '../../../shared/components/progressbar/progressbar.component';
+import { CarouselCurrentPipe } from '../../pipes/carousel-current.pipe';
 
 @Component({
   selector: 'app-html',
   standalone: true,
-  imports: [NgbCarousel, NgbSlide, FlashcardComponent, TranslatePipe],
+  imports: [
+    NgbCarousel,
+    NgbSlide,
+    FlashcardComponent,
+    TranslatePipe,
+    ProgressbarComponent,
+    CarouselCurrentPipe,
+  ],
   templateUrl: './html.component.html',
   styleUrl: './html.component.scss',
 })
@@ -24,6 +34,8 @@ export class HtmlComponent implements OnInit {
   private questionsService = inject(QuestionsService);
   @Input()
   public questions: Question[] | undefined;
+  @Input()
+  public question: Question | undefined;
   @Input()
   public type: string | undefined;
   public isStarted: boolean = false;
