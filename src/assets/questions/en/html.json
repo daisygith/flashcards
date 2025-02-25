@@ -6,38 +6,38 @@
   },
   {
     "id": 2,
-    "question": "What is the purpose of the <!DOCTYPE html> declaration?",
+    "question": "What is the purpose of the &lt;!DOCTYPE html&gt; declaration?",
     "answer": "It informs the browser about the version of HTML being used and ensures proper rendering "
   },
   {
     "id": 3,
     "question": "What are the main sections of an HTML document?",
-    "answer": "The main sections are <html>, <head> and <body>. "
+    "answer": "The main sections are &lt;html&gt;, &lt;head&gt; and &lt;body&gt;. "
   },
   {
     "id": 4,
     "question": "How do you write a comment in HTML? ",
-    "answer": "A comment is create use <br /> <!-- comment -->. <br />* keyboard -> ctrl + /"
+    "answer": "A comment is create use <br /> &lt;!-- comment --&gt;. <br />* keyboard -> ctrl + /"
   },
   {
     "id": 5,
-    "question": "What is the purpose of the <head> element?",
+    "question": "What is the purpose of the &lt;head&gt; element?",
     "answer": "It holds info about: <br />- Metadata, <br />- Links to stylesheets, <br />- scripts. <br />In general, it contains information that is not displayed directly on the page. "
   },
   {
     "id": 6,
-    "question": "What is the purpose of the <title> element?",
+    "question": "What is the purpose of the &lt;title&gt; element?",
     "answer": "It sets the title of the web page, which is displayed on the browser tab. "
   },
   {
     "id": 7,
-    "question": "What is the purpose of the <body> element?",
+    "question": "What is the purpose of the &lt;body&gt; element?",
     "answer": "It contains the content of the HTML document that is displayed in the browser. "
   },
   {
     "id": 8,
     "question": "How do you create a hyperlink in HTML?",
-    "answer": "Use the <a> tag with the href attribute. <br /> dodac przyklad"
+    "answer": "Use the &lt;a&gt; tag with the href attribute. <br /> dodac przyklad"
   },
   {
     "id": 9,
@@ -47,92 +47,92 @@
   {
     "id": 10,
     "question": "What is the difference between an element and a tag?",
-    "answer": "An element includes: <br />- the opening tag, <br />- content, <br />- closing tag <br /><p>content</p>. <br /> A tag is the part inside angle brackets <br /><p> "
+    "answer": "An element includes: <br />- the opening tag, <br />- content, <br />- closing tag <br />&lt;p&gt;content&lt;/p&gt;. <br /> A tag is the part inside angle brackets <br />&lt;p&gt; "
   },
   {
     "id": 11,
     "question": "How do you create a paragraph in HTML?",
-    "answer": "- The <p> element defines a paragraph of text. <br />- It is a block-level element that automatically adds some space above and below the text. <br /> <p>This ia a paragraph.</p>"
+    "answer": "- The &lt;p&gt; element defines a paragraph of text. <br />- It is a block-level element that automatically adds some space above and below the text. <br /> &lt;p&gt;This ia a paragraph.&lt;/p&gt;"
   },
   {
     "id": 12,
     "question": "How do you create a line break in HTML? ",
-    "answer": "The <br> element inserts a line break within the text. <br /> It is an empty (void) element - it doesn't have a closing tag !"
+    "answer": "The &lt;br&gt; element inserts a line break within the text. <br /> It is an empty (void) element - it doesn't have a closing tag !"
   },
   {
     "id": 13,
     "question": "How do you make text bold in HTML?",
-    "answer": "Using <strong> indicate that the text is of strong importance. <br />It is a semantic element, in addition to styling it also conveys meaning. <br /><strong>Text.</strong>"
+    "answer": "Using &lt;strong&gt; indicate that the text is of strong importance. <br />It is a semantic element, in addition to styling it also conveys meaning. <br />&lt;strong&gt;Text.&lt;/strong&gt;"
   },
   {
     "id": 14,
     "question": "How do you make text italic in HTML? ",
-    "answer": " The <em> element is used to emphasize text. <br />It is a semantic element. "
+    "answer": " The &lt;em&gt; element is used to emphasize text. <br />It is a semantic element. "
   },
   {
     "id": 15,
     "question": "How do you create a heading in HTML? ",
-    "answer": "The <h1> to <h6> elements define headings. <br /><h1> being the highest (most important) level <br /> <h6> the lowest. "
+    "answer": "The &lt;h1&gt; to &lt;h6&gt; elements define headings. <br />&lt;h1&gt; being the highest (most important) level <br /> &lt;h6&gt; the lowest. "
   },
   {
     "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.<br />It is typically displayed as an indented block of <br />text. "
+    "question": "What is the &lt;blockquote&gt; element used for?",
+    "answer": "The &lt;blockquote&gt; element is used to define a section that is quoted from another source.<br />It is typically displayed as an indented block of text. "
   },
   {
     "id": 17,
     "question": "How do you create a horizontal line in HTML? ",
-    "answer": "A horizontal line is created using the <hr> tag. This tag is an empty tag and is used to insert a horizontal rule or divider. "
+    "answer": "A horizontal line is created using the &lt;hr&gt; tag. This tag is an empty tag and is used to insert a horizontal rule or divider. "
   },
   {
     "id": 18,
-    "question": "What is the <pre> element used for? ",
-    "answer": " The <pre> element is used to define preformatted text. <br />Text within this element is displayed in a fixed-width font, and both spaces and line breaks are preserved."
+    "question": "What is the &lt;pre&gt; element used for? ",
+    "answer": " The &lt;pre&gt; element is used to define preformatted text. <br />Text within this element is displayed in a fixed-width font, and both spaces and line breaks are preserved."
   },
   {
     "id": 19,
     "question": "How do you create a superscript and subscript text in HTML?",
-    "answer": "- Superscript : The <sup> tag is used to define superscript text, which is text that appears slightly above the normal line of text. <br />- Subscript : The <sub> tag is used to define subscript text, which is text that appears slightly below the normal line of text.  "
+    "answer": "- Superscript : The &lt;sup&gt; tag is used to define superscript text, which is text that appears slightly above the normal line of text. <br />- Subscript : The &lt;sub&gt; tag is used to define subscript text, which is text that appears slightly below the normal line of text.  "
   },
   {
     "id": 20,
     "question": "How many levels of headings are there in HTML?",
-    "answer": "There are six levels of headings in HTML, ranging from <h1> to <h6>. "
+    "answer": "There are six levels of headings in HTML, ranging from &lt;h1&gt; to &lt;h6&gt;. "
   },
   {
     "id": 21,
     "question": "How do you create an unordered list in HTML? ",
-    "answer": "An unordered list (<ul>) uses bullet points for its list items <li>. "
+    "answer": "An unordered list (&lt;ul&gt;) uses bullet points for its list items &lt;li&gt;. "
   },
   {
     "id": 22,
     "question": "How do you create an ordered list in HTML?",
-    "answer": "An ordered list (<ol>) uses numbers for its list items (<li>)  "
+    "answer": "An ordered list (&lt;ol&gt;) uses numbers for its list items (&lt;li&gt;)  "
   },
   {
     "id": 23,
     "question": "How do you create a list item in HTML? ",
-    "answer": "A list item (<li>) is used inside <ul> or <ol> to define each item in the list.  "
+    "answer": "A list item (&lt;li&gt;) is used inside &lt;ul&gt; or &lt;ol&gt; to define each item in the list.  "
   },
   {
     "id": 24,
-    "question": "What is the difference between the <ul> and <ol> elements? ",
-    "answer": "- <ul> creates a bulleted list, <br />- <ol> creates a numbered list."
+    "question": "What is the difference between the &lt;ul&gt; and &lt;ol&gt; elements? ",
+    "answer": "- &lt;ul&gt; creates a bulleted list, <br />- &lt;ol&gt; creates a numbered list."
   },
   {
     "id": 25,
     "question": "How do you create a nested list in HTML?",
-    "answer": "A nested list is created by placing a <ul> or <ol> inside a <li> of another list. "
+    "answer": "A nested list is created by placing a &lt;ul&gt; or &lt;ol&gt; inside a &lt;li&gt; of another list. "
   },
   {
     "id": 26,
     "question": "How do you create an anchor link that jumps to a specific section within the same page?",
-    "answer": "Use the href attribute with a # followed by the id of the target section. <br /> <a href=\"#name_section\">Go to Section</a> <br /> <h2 id=\"name_section\">Section 1</h2>"
+    "answer": "Use the href attribute with a # followed by the id of the target section. <br /> &lt;a href=\"#name_section\"&gt;Go to Section&lt;/a&gt; <br /> &lt;h2 id=\"name_section\"&gt;Section 1&lt;/h2&gt;"
   },
   {
     "id": 27,
     "question": "How do you open a link in a new tab or window? ",
-    "answer": "Use the target=\"_blank\" attribute in the anchor tag. <br /> <a href=\"URL\" target=\"_blank\">Example</a> "
+    "answer": "Use the target=\"_blank\" attribute in the anchor tag. <br /> &lt;a href=\"URL\" target=\"_blank\"&gt;Example&lt;/a&gt; "
   },
   {
     "id": 28,
@@ -142,17 +142,17 @@
   {
     "id": 29,
     "question": "How do you link to an email address in HTML? ",
-    "answer": "Use the mailto: protocol in the href attribute. <br /> <a href=\"mailto:example@ex.com\">Sent Email</a>  "
+    "answer": "Use the mailto: protocol in the href attribute. <br /> &lt;a href=\"mailto:example@ex.com\"&gt;Sent Email&lt;/a&gt;  "
   },
   {
     "id": 30,
     "question": "How do you create a navigation menu in HTML? ",
-    "answer": "Use a <nav> element containing an unordered list (<ul>) with list items (<li>) and anchor tags (<a>) for each menu link. <br /><nav><br /> <ul><br />   <li><a href=\"/portfolio\">Portfolio</a></li><br />   <li><a href=\"/about\">About</a></li><br />  </ul><br /></nav>  "
+    "answer": "Use a &lt;nav&gt; element containing an unordered list (&lt;ul&gt;) with list items (&lt;li&gt;) and anchor tags (&lt;a&gt;) for each menu link. <br />&lt;nav&gt;<br /> &lt;ul&gt;<br />   &lt;li&gt;&lt;a href=\"/portfolio\"&gt;Portfolio&lt;/a&gt;&lt;/li&gt;<br />   &lt;li&gt;&lt;a href=\"/about\"&gt;About&lt;/a&gt;&lt;/li&gt;<br />  &lt;/ul&gt;<br />&lt;/nav&gt;  "
   },
   {
     "id": 31,
     "question": "How do you embed an image in an HTML page? ",
-    "answer": "Use the <img> tag with the src attribute to specify the image file path  <br />* Add the alt attribute for alternative text. <br /> <img scr=\"img.jpg\" alt=\"Description of image\">"
+    "answer": "Use the &lt;img&gt; tag with the src attribute to specify the image file path  <br />* Add the alt attribute for alternative text. <br /> &lt;img scr=\"img.jpg\" alt=\"Description of image\"&gt;"
   },
   {
     "id": 32,
@@ -162,92 +162,92 @@
   {
     "id": 33,
     "question": "How do you make an image a clickable link? ",
-    "answer": "Wrap the <img> tag inside an <a> tag. <br /> <a href=\"URL\"><br /> <img scr=\"img.jpg\" alt=\"Description of image\"><br /></a>"
+    "answer": "Wrap the &lt;img&gt; tag inside an &lt;a&gt; tag. <br /> &lt;a href=\"URL\"&gt;<br /> &lt;img scr=\"img.jpg\" alt=\"Description of image\"&gt;<br />&lt;/a&gt;"
   },
   {
     "id": 34,
     "question": "What are the properties of inline elements?",
-    "answer": "- Do not start on a new line<br />- Only takes up as much width as necessary <br />- Only as high as its content<br />- Top and bottom margins/padding not respected <br />- Can be nested inside block elements <br />- Does not cause a line break before and after.<br />Example: <span>, <a>, <img>, <strong> "
+    "answer": "- Do not start on a new line<br />- Only takes up as much width as necessary <br />- Only as high as its content<br />- Top and bottom margins/padding not respected <br />- Can be nested inside block elements <br />- Does not cause a line break before and after.<br />Example: &lt;span&gt;, &lt;a&gt;, &lt;img&gt;, &lt;strong&gt; "
   },
   {
     "id": 35,
     "question": "What are the properties of block-level elements?",
-    "answer": "- Always start on a new line <br />- Takes up the full width available <br />- Can have a specified height<br />-  Margins and padding respected on all sides <br />- Can contain both inline and block elements <br />- Causes a line break before and after<br />Example: <div>, <p>, <h1>, <section>   "
+    "answer": "- Always start on a new line <br />- Takes up the full width available <br />- Can have a specified height<br />-  Margins and padding respected on all sides <br />- Can contain both inline and block elements <br />- Causes a line break before and after<br />Example: &lt;div&gt;, &lt;p&gt;, &lt;h1&gt;, &lt;section&gt;   "
   },
   {
     "id": 36,
     "question": "Describe HTML semantic elements.",
-    "answer": "Elements that clearly describe their meaning in a human- and machine-readable way<br />- Easier to read and maintain due to clear meaning and structure<br />Better support for assistive technologies, making content more accessible <br />Improved search engine optimization as search engines better understands the content structure.<br /><header>, <nav>, <article>, <section>, <footer>, <aside>, <main>  "
+    "answer": "Elements that clearly describe their meaning in a human- and machine-readable way<br />- Easier to read and maintain due to clear meaning and structure<br />Better support for assistive technologies, making content more accessible <br />Improved search engine optimization as search engines better understands the content structure.<br />&lt;header&gt;, &lt;nav&gt;, &lt;article&gt;, &lt;section&gt;, &lt;footer&gt;, &lt;aside&gt;, &lt;main&gt;  "
   },
   {
     "id": 37,
     "question": "Describe HTML Non-semantic elements",
-    "answer": "Elements that do not provide clear meaning or context about their content <br />To define sections of a page without any inherent meaning<br />Harder to read and maintain as they require class or id attributes to convey meaning <br />Poor support for assistive technologies as they lack semantic meaning<br /><div>, <span>"
+    "answer": "Elements that do not provide clear meaning or context about their content <br />To define sections of a page without any inherent meaning<br />Harder to read and maintain as they require class or id attributes to convey meaning <br />Poor support for assistive technologies as they lack semantic meaning<br />&lt;div&gt;, &lt;span&gt;"
   },
   {
     "id": 38,
     "question": "How do you create a table in HTML?",
-    "answer": "<table> tag to define the table, <br /><thead> - for structuring the table's header,<br /><tbody> - for structuring the table's body,<br /> <tfoot> - for structuring the table's  footer. "
+    "answer": "&lt;table&gt; tag to define the table, <br />&lt;thead&gt; - for structuring the table's header,<br />&lt;tbody&gt; - for structuring the table's body,<br /> &lt;tfoot&gt; - for structuring the table's  footer. "
   },
   {
     "id": 39,
     "question": "How do you create a table row in HTML?",
-    "answer": " <tr> tag - define a table row. <br />It contains the table cells <td> and <th>. "
+    "answer": " &lt;tr&gt; tag - define a table row. <br />It contains the table cells &lt;td&gt; and &lt;th&gt;. "
   },
   {
     "id": 40,
     "question": "How do you create a table cell in HTML? ",
-    "answer": "Use the <td> tag for a data cell or the <th> tag for a header cell within a <tr> (table row). <br /> "
+    "answer": "Use the &lt;td&gt; tag for a data cell or the &lt;th&gt; tag for a header cell within a &lt;tr&gt; (table row). <br /> "
   },
   {
     "id": 41,
-    "question": "What is the purpose of the <thead>, <tbody>, and <tfoot> elements?",
-    "answer": "<thead>: Groups the header content of a table, <br /><tbody>: Groups the body content of a table, <br /><tfoot>: Groups the footer content of a table.  "
+    "question": "What is the purpose of the &lt;thead&gt;, &lt;tbody&gt;, and &lt;tfoot&gt; elements?",
+    "answer": "&lt;thead&gt;: Groups the header content of a table, <br />&lt;tbody&gt;: Groups the body content of a table, <br />&lt;tfoot&gt;: Groups the footer content of a table.  "
   },
   {
     "id": 42,
     "question": "How do you merge cells in a table? ",
-    "answer": "Use the colspan attribute to merge cells horizontally  <br />Use the rowspan attribute to merge cells vertically. <br /> <td colspan=\"2\">Cell</td><br /> <td rowspan=\"2\">Cell</td>  "
+    "answer": "Use the colspan attribute to merge cells horizontally  <br />Use the rowspan attribute to merge cells vertically. <br /> &lt;td colspan=\"2\"&gt;Cell&lt;/td&gt;<br /> &lt;td rowspan=\"2\"&gt;Cell&lt;/td&gt;  "
   },
   {
     "id": 43,
     "question": "How do you create a form in HTML?",
-    "answer": " To create a form in HTML, use the <form> element. <br /> <form action=\"submit-form\" method=\"post\"> ...form elements</form>"
+    "answer": " To create a form in HTML, use the &lt;form&gt; element. <br /> &lt;form action=\"submit-form\" method=\"post\"&gt; ...form elements&lt;/form&gt;"
   },
   {
     "id": 44,
-    "question": "What is the purpose of the <form> element?",
-    "answer": "The <form> element is used to create an HTML form for user input.  <br />It can contain various input elements like text fields, checkboxes, radio buttons, and submit buttons.  <br />It also defines where and how the data should be submitted.  "
+    "question": "What is the purpose of the &lt;form&gt; element?",
+    "answer": "The &lt;form&gt; element is used to create an HTML form for user input.  <br />It can contain various input elements like text fields, checkboxes, radio buttons, and submit buttons.  <br />It also defines where and how the data should be submitted.  "
   },
   {
     "id": 45,
     "question": "How do you create a text input field in HTML?",
-    "answer": "To create a text input field, use the <input> element with type=\"text\". <br /><input type=\"text\" name=\"username\"> "
+    "answer": "To create a text input field, use the &lt;input&gt; element with type=\"text\". <br />&lt;input type=\"text\" name=\"username\"&gt; "
   },
   {
     "id": 46,
     "question": "How do you create a password input field in HTML?",
-    "answer": "To create a password input field, use the <input> element with type=\"password\". <br /> <input type=\"password\" name=\"password\"> "
+    "answer": "To create a password input field, use the &lt;input&gt; element with type=\"password\". <br /> &lt;input type=\"password\" name=\"password\"&gt; "
   },
   {
     "id": 47,
     "question": "How do you create a radio button in HTML?",
-    "answer": "To create a radio button, use the <input> element with type=\"radio\". <br /><input type=\"radio\" name=\"username\" value=\"male\">Male"
+    "answer": "To create a radio button, use the &lt;input&gt; element with type=\"radio\". <br />&lt;input type=\"radio\" name=\"username\" value=\"male\"&gt;Male"
   },
   {
     "id": 48,
     "question": "How do you create a checkbox in HTML?",
-    "answer": "To create a checkbox, use the <input> element with type=\"checkbox\""
+    "answer": "To create a checkbox, use the &lt;input&gt; element with type=\"checkbox\""
   },
   {
     "id": 49,
     "question": "How do you create a dropdown list in HTML?",
-    "answer": "To create a dropdown list, use the <select> element with <option> elements. <br /><select =\"numbers\"><br /> <option value=\"1\">1</option><br /> <option value=\"2\">2</option><br /></select> "
+    "answer": "To create a dropdown list, use the &lt;select&gt; element with &lt;option&gt; elements. <br />&lt;select =\"numbers\"&gt;<br /> &lt;option value=\"1\"&gt;1&lt;/option&gt;<br /> &lt;option value=\"2\"&gt;2&lt;/option&gt;<br />&lt;/select&gt; "
   },
   {
     "id": 50,
     "question": "How do you create a submit button in HTML?",
-    "answer": "To create a submit button, use the <input> element with type=\"submit\" or <button> element with type=\"submit\". <br /><input type=\"submit\" value=\"submit\">Submit</input> or <br /><button type=\"submit\" value=\"submit\">Submit></button> "
+    "answer": "To create a submit button, use the &lt;input&gt; element with type=\"submit\" or &lt;button&gt; element with type=\"submit\". <br />&lt;input type=\"submit\" value=\"submit\"&gt;Submit&lt;/input&gt; or <br />&lt;button type=\"submit\" value=\"submit\"&gt;Submit&gt;&lt;/button&gt; "
   },
   {
     "id": 51,
@@ -271,82 +271,82 @@
   },
   {
     "id": 55,
-    "question": "What is the <article> element used for? ",
-    "answer": "<article> is used to define an independent, self-contained piece of content that can be distributed and reused independently, such as blog posts, articles, or news items.  "
+    "question": "What is the &lt;article&gt; element used for? ",
+    "answer": "&lt;article&gt; is used to define an independent, self-contained piece of content that can be distributed and reused independently, such as blog posts, articles, or news items.  "
   },
   {
     "id": 56,
-    "question": "What is the <section> element used for?",
-    "answer": "<section> defines a thematic grouping of content, typically with a heading. It's used to organize content into meaningful sections on a page."
+    "question": "What is the &lt;section&gt; element used for?",
+    "answer": "&lt;section&gt; defines a thematic grouping of content, typically with a heading. It's used to organize content into meaningful sections on a page."
   },
   {
     "id": 57,
-    "question": "What is the <nav> element used for? ",
-    "answer": "<nav> represents a section of navigation links, such as menus or tables of contents.<br />It's used to define navigation blocks within a page or site. "
+    "question": "What is the &lt;nav&gt; element used for? ",
+    "answer": "&lt;nav&gt; represents a section of navigation links, such as menus or tables of contents.<br />It's used to define navigation blocks within a page or site. "
   },
   {
     "id": 58,
-    "question": "What is the <aside> element used for? ",
-    "answer": "<aside> is used for content that is tangentially related to the main content of the page, such as sidebars, pull quotes, or <br />advertisements.  "
+    "question": "What is the &lt;aside&gt; element used for? ",
+    "answer": "&lt;aside&gt; is used for content that is tangentially related to the main content of the page, such as sidebars, pull quotes, or <br />advertisements.  "
   },
   {
     "id": 59,
-    "question": "What is the <header> element used for?",
-    "answer": "<header> typically contains introductory content or elements at the top of a page or section.<br />It often includes headings, logos, navigation links, or search forms."
+    "question": "What is the &lt;header&gt; element used for?",
+    "answer": "&lt;header&gt; typically contains introductory content or elements at the top of a page or section.<br />It often includes headings, logos, navigation links, or search forms."
   },
   {
     "id": 60,
-    "question": "What is the <footer> element used for?",
-    "answer": "<footer> is used to contain information that appears at the bottom of a webpage or section. <br />This can include copyright notices, contact information, or links to related content. "
+    "question": "What is the &lt;footer&gt; element used for?",
+    "answer": "&lt;footer&gt; is used to contain information that appears at the bottom of a webpage or section. <br />This can include copyright notices, contact information, or links to related content. "
   },
   {
     "id": 61,
-    "question": "What is the <main> element used for?",
-    "answer": "<main> specifies the main content of a webpage or section.<br />It excludes content like navigation menus that are repeated across multiple pages."
+    "question": "What is the &lt;main&gt; element used for?",
+    "answer": "&lt;main&gt; specifies the main content of a webpage or section.<br />It excludes content like navigation menus that are repeated across multiple pages."
   },
   {
     "id": 62,
-    "question": "What are the <figure> and <figcaption> elements used for? ",
-    "answer": "<figure> is used to encapsulate media content like images, videos, or charts. <br /><figcaption> provides a caption or description for the content inside the <figure> "
+    "question": "What are the &lt;figure&gt; and &lt;figcaption&gt; elements used for? ",
+    "answer": "&lt;figure&gt; is used to encapsulate media content like images, videos, or charts. <br />&lt;figcaption&gt; provides a caption or description for the content inside the &lt;figure&gt; "
   },
   {
     "id": 63,
     "question": "How do you embed a video in HTML? ",
-    "answer": "To embed a video in HTML, you use the <video> element. <br /><video width=\"size\" height=\"size\" controls><br /> <source src=\"video.mp4\" type=\"video/mp4\">Video<br /></video><br /> width and height attributes specify the dimensions of the video player. <br />The <source> element inside <video> provides different formats of the video (src attribute) andtheir MIME types (type attribute). <br />The controls attribute adds playback controls play, pause, volume, etc.). "
+    "answer": "To embed a video in HTML, you use the &lt;video&gt; element. <br />&lt;video width=\"size\" height=\"size\" controls&gt;<br /> &lt;source src=\"video.mp4\" type=\"video/mp4\"&gt;Video<br />&lt;/video&gt;<br /> width and height attributes specify the dimensions of the video player. <br />The &lt;source&gt; element inside &lt;video&gt; provides different formats of the video (src attribute) andtheir MIME types (type attribute). <br />The controls attribute adds playback controls play, pause, volume, etc.). "
   },
   {
     "id": 64,
     "question": "How do you embed an audio file in HTML?",
-    "answer": "Embedding an audio file is similar to embedding a video. You use the <audio> element <br /><audio controls><br /> <source src=\"audio.mp3\" type=\"audio/mpeg\">Audio<br /></audio> "
+    "answer": "Embedding an audio file is similar to embedding a video. You use the &lt;audio&gt; element <br />&lt;audio controls&gt;<br /> &lt;source src=\"audio.mp3\" type=\"audio/mpeg\"&gt;Audio<br />&lt;/audio&gt; "
   },
   {
     "id": 65,
-    "question": "What is the purpose of the <source> element in multimedia? ",
-    "answer": "The <source> element is used inside <audio> and <video> elements to specify multiple media resources.<br />It allows the browser to choose the most suitable file to play based on the media type and codec support of the user's device.<br />This ensures compatibility across different browsers and devices."
+    "question": "What is the purpose of the &lt;source&gt; element in multimedia? ",
+    "answer": "The &lt;source&gt; element is used inside &lt;audio&gt; and &lt;video&gt; elements to specify multiple media resources.<br />It allows the browser to choose the most suitable file to play based on the media type and codec support of the user's device.<br />This ensures compatibility across different browsers and devices."
   },
   {
     "id": 66,
     "question": "How do you embed a YouTube video in HTML? ",
-    "answer": "To embed a YouTube video, you use an <iframe> element provided by YouTube. <br /><iframe width=\"560\" height=\"315\" src=\"URL\" frameborder=\"0\" allowfullscreen></iframe> "
+    "answer": "To embed a YouTube video, you use an &lt;iframe&gt; element provided by YouTube. <br />&lt;iframe width=\"560\" height=\"315\" src=\"URL\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt; "
   },
   {
     "id": 67,
-    "question": "What is the <canvas> element used for?",
-    "answer": "The <canvas> element in HTML is used to draw graphics, animations, or any other visual images on the fly using JavaScript <br />It provides a drawing space on which you can programmatically create and manipulate graphics, such as graphs, animations, games, or interactive visualizations. <br />Content inside <canvas> is rendered dynamically and can be updated in response user actions or other events."
+    "question": "What is the &lt;canvas&gt; element used for?",
+    "answer": "The &lt;canvas&gt; element in HTML is used to draw graphics, animations, or any other visual images on the fly using JavaScript <br />It provides a drawing space on which you can programmatically create and manipulate graphics, such as graphs, animations, games, or interactive visualizations. <br />Content inside &lt;canvas&gt; is rendered dynamically and can be updated in response user actions or other events."
   },
   {
     "id": 68,
-    "question": "What is the <datalist> element used for? ",
-    "answer": "The <datalist> element provides a list of predefined options for an <input> element, often used for autocomplete functionality. <br />Users can either type a custom value or select from the predefined options. "
+    "question": "What is the &lt;datalist&gt; element used for? ",
+    "answer": "The &lt;datalist&gt; element provides a list of predefined options for an &lt;input&gt; element, often used for autocomplete functionality. <br />Users can either type a custom value or select from the predefined options. "
   },
   {
     "id": 69,
-    "question": "What is the <progress> Element Used For?",
-    "answer": "The <progress> element represents the completion progress of a task, such as a download or file upload. <br />The value attribute specifies the current progress, and the max attribute defines the total value, rendering a visual progress bar.<br /><progress value=\"70\" max=\"100\"></progress>"
+    "question": "What is the &lt;progress&gt; Element Used For?",
+    "answer": "The &lt;progress&gt; element represents the completion progress of a task, such as a download or file upload. <br />The value attribute specifies the current progress, and the max attribute defines the total value, rendering a visual progress bar.<br />&lt;progress value=\"70\" max=\"100\"&gt;&lt;/progress&gt;"
   },
   {
     "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.<br />It is typically displayed as an indented block of <br />text. "
+    "question": "What is the &lt;blockquote&gt; element used for?",
+    "answer": "The &lt;blockquote&gt; element is used to define a section that is quoted from another source.<br />It is typically displayed as an indented block of <br />text. "
   }
 ]

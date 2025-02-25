@@ -6,32 +6,32 @@
   },
   {
     "id": 2,
-    "question": "Jaki jest cel deklaracji <br /><!DOCTYPE html> ?",
+    "question": "Jaki jest cel deklaracji <br />&lt;!DOCTYPE html&gt; ?",
     "answer": "Informuję przeglądarkę o używanej wersji HTML i zapewnia prawidłowe renderowanie."
   },
   {
     "id": 3,
     "question": "Jakie są główne sekcje w dokumencie HTML?",
-    "answer": "Głownymi sekcjami są <html>, <head> i <body>."
+    "answer": "Głownymi sekcjami są &lt;html&gt;, &lt;head&gt; i &lt;body&gt;."
   },
   {
     "id": 4,
     "question": "Jak napisać komentarz w HTML?",
-    "answer": "Komentarz tworzy się za pomocą <br /> <!-- comment -->. <br />* klawiatura -> ctrl + /"
+    "answer": "Komentarz tworzy się za pomocą <br /> &lt;!-- comment --&gt;. <br />* klawiatura -&gt; ctrl + /"
   },
   {
     "id": 5,
-    "question": "Jaki jest cel elementu <head>?",
+    "question": "Jaki jest cel elementu &lt;head&gt;?",
     "answer": "Zawiera informacje o: <br />- Metadata, <br />- Linkach do arkuszy styli, <br />- skryptach. <br />Zazwyczaj zawiera informacje, które nie sa wyświetlane bezpośrednio na stronie."
   },
   {
     "id": 6,
-    "question": "Jaki jest cel elementu <title>?",
+    "question": "Jaki jest cel elementu &lt;title&gt;?",
     "answer": "Ustawia tytuł strony internetowej, który wyświetlany jest na karcie przeglądarki."
   },
   {
     "id": 7,
-    "question": "Jaki jest cel elementu <body>?",
+    "question": "Jaki jest cel elementu &lt;body&gt;?",
     "answer": "Zawiera treść elementu HTML, który jest wyświetlany w przeglądarce."
   },
   {
@@ -47,92 +47,92 @@
   {
     "id": 10,
     "question": "Jaka jest różnica między elementem i tagiem?",
-    "answer": "Element zawiera: <br />-  otwierający znacznik, <br />- treść <br />- zamykający znacznik <br /><p>content</p>. <br /> Znacznik to część wewnątrz ostrych nawiasów <br /><p>"
+    "answer": "Element zawiera: <br />-  otwierający znacznik, <br />- treść <br />- zamykający znacznik <br />&lt;p&gt;content&lt;/p&gt;. <br /> Znacznik to część wewnątrz ostrych nawiasów <br />&lt;p&gt;"
   },
   {
     "id": 11,
     "question": "Jak utworzyć paragraf w HTML?",
-    "answer": "- Używająć <p>, który definiuje akapit tekstu. <br />- Jest to element blokowy, który dautmatycznie dodaje pewną ilość miejsca nad i pod tekstem. <br /> <p>This ia a paragraph.</p>"
+    "answer": "- Używająć &lt;p&gt;, który definiuje akapit tekstu. <br />- Jest to element blokowy, który dautmatycznie dodaje pewną ilość miejsca nad i pod tekstem. <br /> &lt;p&gt;This ia a paragraph.&lt;/p&gt;"
   },
   {
     "id": 12,
     "question": "Jak utworzyć podział wiersza w HTML?",
-    "answer": "Element <br> wstawia podział wiersza w tekscie. <br /> Jest to pusty element - nie ma znacznika zamykającego!"
+    "answer": "Element &lt;br&gt; wstawia podział wiersza w tekscie. <br /> Jest to pusty element - nie ma znacznika zamykającego!"
   },
   {
     "id": 13,
     "question": "Jak pogrubić tekst w HTML?",
-    "answer": "- Używając <strong>, wskazujemy że tekst ma duże znaczenie. <br /> Jest to element semantyczny, oprócz stylizacji przekazuje także znaczenie. <br /><strong>Text.</strong>"
+    "answer": "- Używając &lt;strong&gt;, wskazujemy że tekst ma duże znaczenie. <br /> Jest to element semantyczny, oprócz stylizacji przekazuje także znaczenie. <br />&lt;strong&gt;Text.&lt;/strong&gt;"
   },
   {
     "id": 14,
     "question": "Jak zrobić tekst kursywą w tekscie HTML?",
-    "answer": "Używając <em> - robi pochylony tekst. <br />Jest to element semantyczny."
+    "answer": "Używając &lt;em&gt; - robi pochylony tekst. <br />Jest to element semantyczny."
   },
   {
     "id": 15,
     "question": "Jak utworzyć nagłówek w HTML?",
-    "answer": "Elementy od <h1> do <h6> definiują nagłówki. <br /> <h1> najwyższy (najważniejszy> <br /> <h6> najniższy"
+    "answer": "Elementy od &lt;h1&gt; do &lt;h6&gt; definiują nagłówki. <br /> &lt;h1&gt; najwyższy (najważniejszy&gt; <br /> &lt;h6&gt; najniższy"
   },
   {
     "id": 16,
-    "question": "Do czego służy element <blockquote>?",
+    "question": "Do czego służy element &lt;blockquote&gt;?",
     "answer": "Służy do definiowania sekcji cytowanej z innego źródła. <br /> Zazwyczaj jest wyświetlany jako wcięty blok tekstu."
   },
   {
     "id": 17,
     "question": "Jak utworzyć linię poziomą w HTML?",
-    "answer": "Linia pozioma jest tworzona za pomocą znacznika <hr>. <br />Ten znacznik jest pusty i służy do wstawiania poziomej linijki lub dzielnika. "
+    "answer": "Linia pozioma jest tworzona za pomocą znacznika &lt;hr&gt;. <br />Ten znacznik jest pusty i służy do wstawiania poziomej linijki lub dzielnika. "
   },
   {
     "id": 18,
-    "question": "Do czego służy element <pre>?",
-    "answer": "Element <pre> służy do definiowania wstępnie sformatowanego tekstu. <br />Tekst w tym elemencie jest wyświetlany w czcionce o stałej szerokości, a spacje i podziały wiersza są zachowane."
+    "question": "Do czego służy element &lt;pre&gt;?",
+    "answer": "Element &lt;pre&gt; służy do definiowania wstępnie sformatowanego tekstu. <br />Tekst w tym elemencie jest wyświetlany w czcionce o stałej szerokości, a spacje i podziały wiersza są zachowane."
   },
   {
     "id": 19,
     "question": "Jak utworzyć tekst w indeksie górnym i dolnym w HTML?",
-    "answer": "- Indeks górny: Znacznik <sup> służy do definiowania tekstu w indeksie górnym, czyli tekstu, który pojawia się nieznacznie ponad normalną linią tekstu.<br />- Indeks dolny: Znacznik <sub> służy do definiowania tekstu w indeksie dolnym, czyli tekstu, który pojawia się nieznacznie poniżej normalnej linii tekstu."
+    "answer": "- Indeks górny: Znacznik &lt;sup&gt; służy do definiowania tekstu w indeksie górnym, czyli tekstu, który pojawia się nieznacznie ponad normalną linią tekstu.<br />- Indeks dolny: Znacznik &lt;sub&gt; służy do definiowania tekstu w indeksie dolnym, czyli tekstu, który pojawia się nieznacznie poniżej normalnej linii tekstu."
   },
   {
     "id": 20,
     "question": "Ile poziomów nagłówków jest w HTML?",
-    "answer": "Jest 6 poziomów nagłówków <br /> <h1> do <h6>."
+    "answer": "Jest 6 poziomów nagłówków <br /> &lt;h1&gt; do &lt;h6&gt;."
   },
   {
     "id": 21,
     "question": "Jak utworzyć listę nieuporządkowaną w HTML?",
-    "answer": "Używając (<ul>) -> dla punktów wypunktowanych używa się <li>. "
+    "answer": "Używając (&lt;ul&gt;) -&gt; dla punktów wypunktowanych używa się &lt;li&gt;. "
   },
   {
     "id": 22,
     "question": "Jak utworzyć listę uporządkowaną w HTML?",
-    "answer": "Używając (<ol>) -> dla punktów wypunktowanych używa się <li>. "
+    "answer": "Używając (&lt;ol&gt;) -&gt; dla punktów wypunktowanych używa się &lt;li&gt;. "
   },
   {
     "id": 23,
     "question": "Jak utworzyć element listy w HTML?",
-    "answer": "Element listy (<li>) jest używany wewnątrz <ul> lub <ol> w celu zdefiniowania każdego elementu listy. "
+    "answer": "Element listy (&lt;li&gt;) jest używany wewnątrz &lt;ul&gt; lub &lt;ol&gt; w celu zdefiniowania każdego elementu listy. "
   },
   {
     "id": 24,
-    "question": "Jaka jest różnica pomiędzy elementami <ul> i <ol>?",
-    "answer": "- <ul> - tworzy listę wypunktowaną, <br />- <ol> - tworzy lisę numerowaną. "
+    "question": "Jaka jest różnica pomiędzy elementami &lt;ul&gt; i &lt;ol&gt;?",
+    "answer": "- &lt;ul&gt; - tworzy listę wypunktowaną, <br />- &lt;ol&gt; - tworzy lisę numerowaną. "
   },
   {
     "id": 25,
     "question": "Jak utworzyć listę zagnieżdżoną w HTML?",
-    "answer": "Listę zagnieżdżoną tworzy się poprzez umieszczenie <ul> lub <ol> wewnątrz <li> - innej listy. "
+    "answer": "Listę zagnieżdżoną tworzy się poprzez umieszczenie &lt;ul&gt; lub &lt;ol&gt; wewnątrz &lt;li&gt; - innej listy. "
   },
   {
     "id": 26,
     "question": "Jak utworzyć link kotwiczący, który przeniesie Cię do konkretnej sekcji na tej samej stronie?",
-    "answer": "Używamy atrybutu href z #, po którym następuje identyfikator sekcji docelowej. <br /> <a href=\"#name_section\">Go to Section</a> <br /> <h2 id=\"name_section\">Section 1</h2> "
+    "answer": "Używamy atrybutu href z #, po którym następuje identyfikator sekcji docelowej. <br /> &lt;a href=\"#name_section\"&gt;Go to Section&lt;/a&gt; <br /> &lt;h2 id=\"name_section\"&gt;Section 1&lt;/h2&gt; "
   },
   {
     "id": 27,
     "question": "Jak otworzyć link w nowej karcie lub oknie?",
-    "answer": "Używamy atrybutu target=\"_blank\". <br /> <a href=\"URL\" target=\"_blank\">Example</a> "
+    "answer": "Używamy atrybutu target=\"_blank\". <br /> &lt;a href=\"URL\" target=\"_blank\"&gt;Example&lt;/a&gt; "
   },
   {
     "id": 28,
@@ -142,17 +142,17 @@
   {
     "id": 29,
     "question": "Jak utworzyć link do adresu e-mail w formacie HTML?",
-    "answer": "Używając protokołu mailto: w atrybucie href. <br /> <a href=\"mailto:example@ex.com\">Sent Email</a> "
+    "answer": "Używając protokołu mailto: w atrybucie href. <br /> &lt;a href=\"mailto:example@ex.com\"&gt;Sent Email&lt;/a&gt; "
   },
   {
     "id": 30,
     "question": "Jak utworzyć menu nawigacyjne w HTML?",
-    "answer": "Używamy elementu <nav> zawierającego nieuporządkowaną listę (<ul>) z elementami listy (<li>) i znacznikami (<a>) dla każdego łącza menu. <br /><nav><br /> <ul><br />   <li><a href=\"/portfolio\">Portfolio</a></li><br />   <li><a href=\"/about\">About</a></li><br />  </ul><br /></nav>"
+    "answer": "Używamy elementu &lt;nav&gt; zawierającego nieuporządkowaną listę (&lt;ul&gt;) z elementami listy (&lt;li&gt;) i znacznikami (&lt;a&gt;) dla każdego łącza menu. <br />&lt;nav&gt;<br /> &lt;ul&gt;<br />   &lt;li&gt;&lt;a href=\"/portfolio\"&gt;Portfolio&lt;/a&gt;&lt;/li&gt;<br />   &lt;li&gt;&lt;a href=\"/about\"&gt;About&lt;/a&gt;&lt;/li&gt;<br />  &lt;/ul&gt;<br />&lt;/nav&gt;"
   },
   {
     "id": 31,
     "question": "Jak osadzić obraz na stronie HTML?",
-    "answer": "Używamy znacznika <img> z atrybutem src, aby określić ścieżkę do pliku obrazu.<br />* Dodaj atrybut alt dla tekstu alternatywnego. <br /> <img scr=\"img.jpg\" alt=\"Description of image\">"
+    "answer": "Używamy znacznika &lt;img&gt; z atrybutem src, aby określić ścieżkę do pliku obrazu.<br />* Dodaj atrybut alt dla tekstu alternatywnego. <br /> &lt;img scr=\"img.jpg\" alt=\"Description of image\"&gt;"
   },
   {
     "id": 32,
@@ -162,92 +162,92 @@
   {
     "id": 33,
     "question": "Jak sprawić, by obraz stał się klikalnym linkiem?",
-    "answer": "Umieszczamy znacznik <img> wewnątrz znacznika <a>. <br /> <a href=\"URL\"><br /> <img scr=\"img.jpg\" alt=\"Description of image\"><br /></a> "
+    "answer": "Umieszczamy znacznik &lt;img&gt; wewnątrz znacznika &lt;a&gt;. <br /> &lt;a href=\"URL\"&gt;<br /> &lt;img scr=\"img.jpg\" alt=\"Description of image\"&gt;<br />&lt;/a&gt; "
   },
   {
     "id": 34,
     "question": "Jakie są właściwości elementów inline?",
-    "answer": "- Nie zaczyna się od nowego wiersza<br />- Zajmuje tylko tyle szerokości, ile potrzeba<br />- Zajmuje tylko tyle wysokości, ile wynosi jego zawartość<br />- Nie przestrzegane są górne i dolne marginesy/padding<br />- Można zagnieżdżać się wewnątrz elementów blokowych<br />- Nie powoduje podziału wiersza przed i po.<br />Przykład: <span>, <a>, <img>, <strong>"
+    "answer": "- Nie zaczyna się od nowego wiersza<br />- Zajmuje tylko tyle szerokości, ile potrzeba<br />- Zajmuje tylko tyle wysokości, ile wynosi jego zawartość<br />- Nie przestrzegane są górne i dolne marginesy/padding<br />- Można zagnieżdżać się wewnątrz elementów blokowych<br />- Nie powoduje podziału wiersza przed i po.<br />Przykład: &lt;span&gt;, &lt;a&gt;, &lt;img&gt;, &lt;strong&gt;"
   },
   {
     "id": 35,
     "question": "Jakie są właściwości elementów block?",
-    "answer": "- Zawsze zaczyna się od nowego wiersza<br />- Zajmuje całą dostępną szerokość<br />- Może mieć określoną wysokość<br />- Marginesy i padding zachowane ze wszystkich stron<br />- Może zawierać zarówno elementy inline, jak i blokowe<br />- Powoduje podział wiersza przed i po <br />Przykład: <div>, <p>, <h1>, <section>"
+    "answer": "- Zawsze zaczyna się od nowego wiersza<br />- Zajmuje całą dostępną szerokość<br />- Może mieć określoną wysokość<br />- Marginesy i padding zachowane ze wszystkich stron<br />- Może zawierać zarówno elementy inline, jak i blokowe<br />- Powoduje podział wiersza przed i po <br />Przykład: &lt;div&gt;, &lt;p&gt;, &lt;h1&gt;, &lt;section&gt;"
   },
   {
     "id": 36,
     "question": "Opisz elementy semantyczne HTML.",
-    "answer": "Elementy, które jasno opisują ich znaczenie w sposób czytelny dla człowieka i maszyny<br />- Są łatwiejsze do odczytania i utrzymania dzięki jasnemu znaczeniu i strukturze<br />- Lepsze wsparcie dla technologii wspomagających, dzięki czemu treść jest bardziej dostępna<br />- Ulepszona optymalizacja pod kątem wyszukiwarek, wyszukiwarki - rozumieją strukturę treści. <br /><header>, <nav>, <article>, <section>, <footer>, <aside>, <main>                                           "
+    "answer": "Elementy, które jasno opisują ich znaczenie w sposób czytelny dla człowieka i maszyny<br />- Są łatwiejsze do odczytania i utrzymania dzięki jasnemu znaczeniu i strukturze<br />- Lepsze wsparcie dla technologii wspomagających, dzięki czemu treść jest bardziej dostępna<br />- Ulepszona optymalizacja pod kątem wyszukiwarek, wyszukiwarki - rozumieją strukturę treści. <br />&lt;header&gt;, &lt;nav&gt;, &lt;article&gt;, &lt;section&gt;, &lt;footer&gt;, &lt;aside&gt;, &lt;main&gt;                                           "
   },
   {
     "id": 37,
     "question": "Opisz elementy niesemantyczne HTML.",
-    "answer": "Elementy, które nie zapewniają jasnego znaczenia lub kontekstu dotyczącego ich zawartości<br />- Aby zdefiniować sekcje strony bez żadnego wewnętrznego znaczenia<br />Trudniejsze do odczytania i utrzymania, ponieważ wymagają atrybutów class lub id do przekazywania znaczenia<br />Słabe wsparcie dla technologii wspomagających, ponieważ brakuje im znaczenia semantycznego<br /><div>, <span>"
+    "answer": "Elementy, które nie zapewniają jasnego znaczenia lub kontekstu dotyczącego ich zawartości<br />- Aby zdefiniować sekcje strony bez żadnego wewnętrznego znaczenia<br />Trudniejsze do odczytania i utrzymania, ponieważ wymagają atrybutów class lub id do przekazywania znaczenia<br />Słabe wsparcie dla technologii wspomagających, ponieważ brakuje im znaczenia semantycznego<br />&lt;div&gt;, &lt;span&gt;"
   },
   {
     "id": 38,
     "question": "Jak utworzyć tabelę w HTML?",
-    "answer": "<table> - definuje tabelę <br /><thead> - określa nagłówek, <br /><tbody> - określa treść tabeli, <br /><tfooter>  - określa stopkę tabeli"
+    "answer": "&lt;table&gt; - definuje tabelę <br />&lt;thead&gt; - określa nagłówek, <br />&lt;tbody&gt; - określa treść tabeli, <br />&lt;tfooter&gt;  - określa stopkę tabeli"
   },
   {
     "id": 39,
     "question": "Jak utworzyć wiersz tabeli w HTML?",
-    "answer": "Znacznik <tr> - definuje wiersz tabeli. <br /> Zawiera komórki <td> i <th> "
+    "answer": "Znacznik &lt;tr&gt; - definuje wiersz tabeli. <br /> Zawiera komórki &lt;td&gt; i &lt;th&gt; "
   },
   {
     "id": 40,
     "question": "Jak utworzyć komórkę tabeli w HTML?",
-    "answer": "Używamy <td> dla komórki danych lub znacznika <th> dla komórki nagłówka w <tr> (wierszu tabeli). "
+    "answer": "Używamy &lt;td&gt; dla komórki danych lub znacznika &lt;th&gt; dla komórki nagłówka w &lt;tr&gt; (wierszu tabeli). "
   },
   {
     "id": 41,
-    "question": "Jaki jest cel elementów <thead>, <tbody> i <tfoot>?",
-    "answer": "<thead>: Grupuje zawartość nagłówka tabeli,<br /><tbody>: Grupuje zawartość treści tabeli,<br /><tfoot>: Grupuje zawartość stopki tabeli."
+    "question": "Jaki jest cel elementów &lt;thead&gt;, &lt;tbody&gt; i &lt;tfoot&gt;?",
+    "answer": "&lt;thead&gt;: Grupuje zawartość nagłówka tabeli,<br />&lt;tbody&gt;: Grupuje zawartość treści tabeli,<br />&lt;tfoot&gt;: Grupuje zawartość stopki tabeli."
   },
   {
     "id": 42,
     "question": "Jak połączyć komórki w tabeli?",
-    "answer": "colspan - połączenie komórek poziomo, <br /> rowspan - połączenie komórek pionowo. <br /> <td colspan=\"2\">Cell</td><br /> <td rowspan=\"2\">Cell</td> "
+    "answer": "colspan - połączenie komórek poziomo, <br /> rowspan - połączenie komórek pionowo. <br /> &lt;td colspan=\"2\"&gt;Cell&lt;/td&gt;<br /> &lt;td rowspan=\"2\"&gt;Cell&lt;/td&gt; "
   },
   {
     "id": 43,
     "question": "Jak utworzyć formularz w HTML?",
-    "answer": "Używamy <form> do stworzenia formularza w HTML. <br /> <form action=\"submit-form\" method=\"post\"> ...form elements</form>"
+    "answer": "Używamy &lt;form&gt; do stworzenia formularza w HTML. <br /> &lt;form action=\"submit-form\" method=\"post\"&gt; ...form elements&lt;/form&gt;"
   },
   {
     "id": 44,
-    "question": "Jaki jest cel elementu <form>?",
-    "answer": "<form> służy do tworzenia formularzy HTML. <br />Może zawierać różne elementy wprowadzania danych, takie jak pola tekstowe, pola wyboru, przyciski radiowe i przyciski przesyłania. <br />Definiuje gdzie i w jaki sposób dane powinny zostać przesłane."
+    "question": "Jaki jest cel elementu &lt;form&gt;?",
+    "answer": "&lt;form&gt; służy do tworzenia formularzy HTML. <br />Może zawierać różne elementy wprowadzania danych, takie jak pola tekstowe, pola wyboru, przyciski radiowe i przyciski przesyłania. <br />Definiuje gdzie i w jaki sposób dane powinny zostać przesłane."
   },
   {
     "id": 45,
     "question": "Jak utworzyć pole do wprowadzania tekstu(input) w HTML?",
-    "answer": "Trzeba użyć elementu <input> z type=\"text\". <br /><input type=\"text\" name=\"username\"> "
+    "answer": "Trzeba użyć elementu &lt;input&gt; z type=\"text\". <br />&lt;input type=\"text\" name=\"username\"&gt; "
   },
   {
     "id": 46,
     "question": "Jak utworzyć pole wprowadzania hasła w HTML?",
-    "answer": "Trzeba użyć elementu <input> z type=\"password\". <br /><input type=\"password\" name=\"password\">"
+    "answer": "Trzeba użyć elementu &lt;input&gt; z type=\"password\". <br />&lt;input type=\"password\" name=\"password\"&gt;"
   },
   {
     "id": 47,
     "question": "Jak utworzyć przycisk typu radio w HTML?",
-    "answer": "Trzeba użyć elementu <input> z type=\"radio\". <br /><input type=\"radio\" name=\"username\" value=\"male\">Male "
+    "answer": "Trzeba użyć elementu &lt;input&gt; z type=\"radio\". <br />&lt;input type=\"radio\" name=\"username\" value=\"male\"&gt;Male "
   },
   {
     "id": 48,
     "question": "Jak utworzyć pole wyboru (checkbox) w HTML?",
-    "answer": "Trzeba użyć elementu <input> z type=\"checkbox\". "
+    "answer": "Trzeba użyć elementu &lt;input&gt; z type=\"checkbox\". "
   },
   {
     "id": 49,
     "question": "Jak utworzyć listę rozwijaną w HTML?",
-    "answer": "Trzeba użyć elementu <select> z elementami <option>. <br /><select =\"numbers\"><br /> <option value=\"1\">1</option><br /> <option value=\"2\">2</option><br /></select>"
+    "answer": "Trzeba użyć elementu &lt;select&gt; z elementami &lt;option&gt;. <br />&lt;select =\"numbers\"&gt;<br /> &lt;option value=\"1\"&gt;1&lt;/option&gt;<br /> &lt;option value=\"2\"&gt;2&lt;/option&gt;<br />&lt;/select&gt;"
   },
   {
     "id": 50,
     "question": "Jak utworzyć przycisk „Prześlij” w HTML?",
-    "answer": "Trzeba użyć elementu <input> z type=\"submit\" lub <button> z type=\"submit\". <br /><input type=\"submit\" value=\"submit\">Submit</input> lub <br /><button type=\"submit\" value=\"submit\">Submit></button> "
+    "answer": "Trzeba użyć elementu &lt;input&gt; z type=\"submit\" lub &lt;button&gt; z type=\"submit\". <br />&lt;input type=\"submit\" value=\"submit\"&gt;Submit&lt;/input&gt; lub <br />&lt;button type=\"submit\" value=\"submit\"&gt;Submit&gt;&lt;/button&gt; "
   },
   {
     "id": 51,
@@ -271,82 +271,82 @@
   },
   {
     "id": 55,
-    "question": "Do czego służy element <article>?",
-    "answer": "<article> służy do definiowania niezależnego, samodzielnego fragmentu treści, który można rozpowszechniać i wykorzystywać ponownie - niezależnie, np. wpisy na blogu, artykuły lub wiadomości. "
+    "question": "Do czego służy element &lt;article&gt;?",
+    "answer": "&lt;article&gt; służy do definiowania niezależnego, samodzielnego fragmentu treści, który można rozpowszechniać i wykorzystywać ponownie - niezależnie, np. wpisy na blogu, artykuły lub wiadomości. "
   },
   {
     "id": 56,
-    "question": "Do czego służy element <section>?",
-    "answer": "<section> definiuje tematyczne grupowanie treści, zazwyczaj z nagłówkiem.<br />Służy do organizowania treści w sensowne sekcje na stronie. "
+    "question": "Do czego służy element &lt;section&gt;?",
+    "answer": "&lt;section&gt; definiuje tematyczne grupowanie treści, zazwyczaj z nagłówkiem.<br />Służy do organizowania treści w sensowne sekcje na stronie. "
   },
   {
     "id": 57,
-    "question": "Do czego służy element <nav>?",
-    "answer": "<nav> oznacza sekcję łączy nawigacyjnych, takich jak menu lub spisy treści.<br />Służy do definiowania bloków nawigacyjnych na stronie lub w witrynie. "
+    "question": "Do czego służy element &lt;nav&gt;?",
+    "answer": "&lt;nav&gt; oznacza sekcję łączy nawigacyjnych, takich jak menu lub spisy treści.<br />Służy do definiowania bloków nawigacyjnych na stronie lub w witrynie. "
   },
   {
     "id": 58,
-    "question": "Do czego służy element <aside>?",
-    "answer": "<aside> stosuje się do treści pośrednio związanych z główną treścią strony, np. paski boczne, cytaty lub reklamy. "
+    "question": "Do czego służy element &lt;aside&gt;?",
+    "answer": "&lt;aside&gt; stosuje się do treści pośrednio związanych z główną treścią strony, np. paski boczne, cytaty lub reklamy. "
   },
   {
     "id": 59,
-    "question": "Do czego służy element <header>?",
-    "answer": "<header> zazwyczaj zawiera wprowadzającą treść lub elementy na górze strony lub sekcji.<br />Często zawiera nagłówki, loga, linki nawigacyjne lub formularze wyszukiwania."
+    "question": "Do czego służy element &lt;header&gt;?",
+    "answer": "&lt;header&gt; zazwyczaj zawiera wprowadzającą treść lub elementy na górze strony lub sekcji.<br />Często zawiera nagłówki, loga, linki nawigacyjne lub formularze wyszukiwania."
   },
   {
     "id": 60,
-    "question": "Do czego służy element <footer>?",
-    "answer": "<footer> służy do umieszczania informacji, które pojawiają się na dole strony internetowej lub sekcji.<br />Może obejmować informacje o prawach autorskich, dane kontaktowe lub linki do powiązanych treści."
+    "question": "Do czego służy element &lt;footer&gt;?",
+    "answer": "&lt;footer&gt; służy do umieszczania informacji, które pojawiają się na dole strony internetowej lub sekcji.<br />Może obejmować informacje o prawach autorskich, dane kontaktowe lub linki do powiązanych treści."
   },
   {
     "id": 61,
-    "question": "Do czego służy element <main>?",
-    "answer": "<main> określa główną zawartość strony internetowej lub sekcji.<br /> Wyklucza zawartość taką jak menu nawigacyjne, które są powtarzane na wielu stronach. "
+    "question": "Do czego służy element &lt;main&gt;?",
+    "answer": "&lt;main&gt; określa główną zawartość strony internetowej lub sekcji.<br /> Wyklucza zawartość taką jak menu nawigacyjne, które są powtarzane na wielu stronach. "
   },
   {
     "id": 62,
-    "question": "Do czego służą elementy <figure> i <figcaption>?",
-    "answer": "<figure> służy do enkapsulacji zawartości multimedialnej, takiej jak obrazy, filmy lub wykresy.<br /><figcaption> zapewnia podpis lub opis zawartości wewnątrz <figure> "
+    "question": "Do czego służą elementy &lt;figure&gt; i &lt;figcaption&gt;?",
+    "answer": "&lt;figure&gt; służy do enkapsulacji zawartości multimedialnej, takiej jak obrazy, filmy lub wykresy.<br />&lt;figcaption&gt; zapewnia podpis lub opis zawartości wewnątrz &lt;figure&gt; "
   },
   {
     "id": 63,
     "question": "Jak dodać video w HTML?",
-    "answer": "Należy użyć elementu <video>. <br /><video width=\"size\" height=\"size\" controls><br /> <source src=\"video.mp4\" type=\"video/mp4\">Video<br /></video><br />Atrybuty width i height określają wymiary odtwarzacza video.<br />Element <source> wewnątrz <video> udostępnia różne formaty wideo (atrybut src) i ich typy MIME (atrybut type).<br />Atrybut controls dodaje elementy sterujące odtwarzaniem (odtwarzanie, pauza, głośność itd.). "
+    "answer": "Należy użyć elementu &lt;video&gt;. <br />&lt;video width=\"size\" height=\"size\" controls&gt;<br /> &lt;source src=\"video.mp4\" type=\"video/mp4\"&gt;Video<br />&lt;/video&gt;<br />Atrybuty width i height określają wymiary odtwarzacza video.<br />Element &lt;source&gt; wewnątrz &lt;video&gt; udostępnia różne formaty wideo (atrybut src) i ich typy MIME (atrybut type).<br />Atrybut controls dodaje elementy sterujące odtwarzaniem (odtwarzanie, pauza, głośność itd.). "
   },
   {
     "id": 64,
     "question": "Jak dodać plik audio w HTML?",
-    "answer": "Dodawanie pliku audio jest podobne do dodawania pliku video. Dodajemy element <audio>. <br /><audio controls><br /> <source src=\"audio.mp3\" type=\"audio/mpeg\">Audio<br /></audio> "
+    "answer": "Dodawanie pliku audio jest podobne do dodawania pliku video. Dodajemy element &lt;audio&gt;. <br />&lt;audio controls&gt;<br /> &lt;source src=\"audio.mp3\" type=\"audio/mpeg\"&gt;Audio<br />&lt;/audio&gt; "
   },
   {
     "id": 65,
-    "question": "Jaki jest cel elementu <source> w multimediach?",
-    "answer": "Element <source> jest używany wewnątrz elementów <audio> i <video> w celu określenia wielu zasobów multimedialnych.<br />Umożliwia przeglądarce wybór najbardziej odpowiedniego pliku do odtworzenia w oparciu o typ multimediów i obsługę kodeków urządzenia użytkownika.<br />Zapewnia to zgodność między różnymi przeglądarkami i urządzeniami. "
+    "question": "Jaki jest cel elementu &lt;source&gt; w multimediach?",
+    "answer": "Element &lt;source&gt; jest używany wewnątrz elementów &lt;audio&gt; i &lt;video&gt; w celu określenia wielu zasobów multimedialnych.<br />Umożliwia przeglądarce wybór najbardziej odpowiedniego pliku do odtworzenia w oparciu o typ multimediów i obsługę kodeków urządzenia użytkownika.<br />Zapewnia to zgodność między różnymi przeglądarkami i urządzeniami. "
   },
   {
     "id": 66,
     "question": "Jak dodać film z YouTube w HTML?",
-    "answer": "Aby dodać film z serwisu YouTube, należy użyć elementu <iframe> udostępnionego przez serwis YouTube. <br /><iframe width=\"560\" height=\"315\" src=\"URL\" frameborder=\"0\" allowfullscreen></iframe>"
+    "answer": "Aby dodać film z serwisu YouTube, należy użyć elementu &lt;iframe&gt; udostępnionego przez serwis YouTube. <br />&lt;iframe width=\"560\" height=\"315\" src=\"URL\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;"
   },
   {
     "id": 67,
-    "question": "Do czego służy element <canvas>?",
-    "answer": "Element <canvas> w HTML służy do rysowania grafiki, animacji lub innych obrazów wizualnych w locie za pomocą JavaScript.<br />Zapewnia przestrzeń do rysowania, w której można programowo tworzyć i manipulować grafiką, taką jak wykresy, animacje, gry lub interaktywne wizualizacje.<br />Zawartość wewnątrz <canvas> jest renderowana dynamicznie i może być aktualizowana zależnie od działań użytkownika lub innych zdarzeń."
+    "question": "Do czego służy element &lt;canvas&gt;?",
+    "answer": "Element &lt;canvas&gt; w HTML służy do rysowania grafiki, animacji lub innych obrazów wizualnych w locie za pomocą JavaScript.<br />Zapewnia przestrzeń do rysowania, w której można programowo tworzyć i manipulować grafiką, taką jak wykresy, animacje, gry lub interaktywne wizualizacje.<br />Zawartość wewnątrz &lt;canvas&gt; jest renderowana dynamicznie i może być aktualizowana zależnie od działań użytkownika lub innych zdarzeń."
   },
   {
     "id": 68,
-    "question": "Do czego służy element <datalist>?",
-    "answer": "Element <datalist> zawiera listę predefiniowanych opcji dla elementu <input>, często używanych do funkcji autouzupełniania.<br />Użytkownicy mogą wpisać niestandardową wartość lub wybrać spośród predefiniowanych opcji."
+    "question": "Do czego służy element &lt;datalist&gt;?",
+    "answer": "Element &lt;datalist&gt; zawiera listę predefiniowanych opcji dla elementu &lt;input&gt;, często używanych do funkcji autouzupełniania.<br />Użytkownicy mogą wpisać niestandardową wartość lub wybrać spośród predefiniowanych opcji."
   },
   {
     "id": 69,
-    "question": "Do czego służy element <progress>?",
-    "answer": "Element <progress> reprezentuje postęp realizacji zadania, takiego jak pobieranie lub przesyłanie pliku.<br />Atrybut value określa bieżący postęp, a atrybut max definiuje wartość całkowitą, renderując wizualny pasek postępu. <br /><progress value=\"70\" max=\"100\"></progress>"
+    "question": "Do czego służy element &lt;progress&gt;?",
+    "answer": "Element &lt;progress&gt; reprezentuje postęp realizacji zadania, takiego jak pobieranie lub przesyłanie pliku.<br />Atrybut value określa bieżący postęp, a atrybut max definiuje wartość całkowitą, renderując wizualny pasek postępu. <br />&lt;progress value=\"70\" max=\"100\"&gt;&lt;/progress&gt;"
   },
   {
     "id": 16,
-    "question": "What is the <blockquote> element used for?",
-    "answer": "The <blockquote> element is used to define a section that is quoted from another source.<br />It is typically displayed as an indented block of <br />text. "
+    "question": "What is the &lt;blockquote&gt; element used for?",
+    "answer": "The &lt;blockquote&gt; element is used to define a section that is quoted from another source.<br />It is typically displayed as an indented block of <br />text. "
   }
 ]
